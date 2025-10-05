@@ -7,22 +7,6 @@
 	id: "5DADB23C24A14761"
 	images: [
 		{
-			height: 3.0d
-			image: "ftbquests:textures/ftbmisc/deployer.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 20.5d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/chute.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 20.5d
-			y: -1.0d
-		}
-		{
 			height: 1.0d
 			image: "ftbquests:textures/ftbmisc/pipe.png"
 			rotation: 0.0d
@@ -104,58 +88,10 @@
 		}
 		{
 			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/belt1.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 18.5d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
 			image: "ftbquests:textures/ftbmisc/belt2.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 32.5d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/belt0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 20.0d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/belt0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 20.5d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/belt0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 21.0d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/belt0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 22.0d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/belt0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 21.5d
 			y: 2.0d
 		}
 		{
@@ -300,22 +236,6 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 31.0d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/belt0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 19.5d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftbquests:textures/ftbmisc/belt0.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 19.0d
 			y: 2.0d
 		}
 		{
@@ -1444,8 +1364,8 @@
 			]
 			subtitle: "第一个序列组装"
 			tasks: [{
-				id: "7B667D98C17E7884"
-				item: "btb:crank_train"
+				id: "24582328EB498515"
+				item: "wild_n_star:crank_train"
 				type: "item"
 			}]
 			x: 12.0d

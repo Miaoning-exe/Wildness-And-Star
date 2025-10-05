@@ -17,4 +17,11 @@ ServerEvents.recipes(event => {
         'minecraft:iron_block',
         'immersiveengineering:storage_steel'
     )
+
+    // 焦炉砖
+    event.replaceInput(
+        {output: "immersiveengineering:cokebrick"},
+        'minecraft:clay_ball',
+        'wild_n_star:fire_clay'
+    )
 })

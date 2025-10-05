@@ -22,6 +22,126 @@
 			x: -14.0d
 			y: 1.0d
 		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -228,7 +348,7 @@
 				type: "item"
 			}]
 			title: "橡胶"
-			x: -14.5d
+			x: -14.0d
 			y: -3.0d
 		}
 		{
@@ -251,10 +371,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"3C78D48526D97F20"
-				"0207AA417A77EF6B"
-			]
+			dependencies: ["0207AA417A77EF6B"]
 			description: [
 				"&b分液池&r可以把容器（比如桶，瓶子等）中的流体倒进管道系统，你只需要把物品丢到分液池上即可，物品分液完成后会自动滚过分液池。"
 				""
@@ -341,10 +458,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"18C617727812B257"
-				"4E7C199A165380D3"
-			]
+			dependencies: ["4E7C199A165380D3"]
 			description: [
 				"如果你不想使用水力，也可以使用风力来产生动能。"
 				""
@@ -547,6 +661,308 @@
 			title: "移动式存储接口"
 			x: -6.0d
 			y: 3.0d
+		}
+		{
+			id: "0E89C1BBCEDF6982"
+			tasks: [{
+				count: 10L
+				id: "5E2EE800048558D1"
+				item: { Count: 10, id: "thermal:sulfur" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0B5427AC28D3E253"
+				"528545634261D29A"
+			]
+			id: "2E7AEF6D3029CE7A"
+			tasks: [{
+				count: 4L
+				id: "593471F387CA4FA2"
+				item: { Count: 4, id: "thermal:cured_rubber" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E89C1BBCEDF6982"]
+			id: "0B5427AC28D3E253"
+			tasks: [{
+				count: 4L
+				id: "7308BDF5546CC6C9"
+				item: { Count: 4, id: "immersiveengineering:dust_sulfur" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2E7AEF6D3029CE7A"]
+			id: "48918D2085AD7D66"
+			rewards: [{
+				count: 32
+				id: "48A0A5F8ED21A8D9"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "205FD48B2C2C1225"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6A085F84D38BA9BE"
+				"48918D2085AD7D66"
+			]
+			id: "0431717A2632A620"
+			tasks: [{
+				id: "045FA7E98A659459"
+				title: "序列组装"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0431717A2632A620"]
+			id: "1BA54DC4331852CB"
+			tasks: [{
+				id: "7B88FF8C404B4CFA"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48918D2085AD7D66"]
+			id: "56810D80497833DA"
+			tasks: [{
+				id: "318C9D67B0FD33AF"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48918D2085AD7D66"]
+			id: "23699C48ADD6E714"
+			tasks: [{
+				id: "22FC32410114F076"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48918D2085AD7D66"]
+			id: "3839909B723E7AEF"
+			tasks: [{
+				id: "061511622C8EC910"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6E938C4A2F047181"]
+			hide_dependency_lines: true
+			id: "446BC4AABE960E21"
+			tasks: [{
+				id: "4C4B0394CD635664"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["446BC4AABE960E21"]
+			description: [
+				"也许你早就不想用这些巨慢无比的熔炉了，还好我们有这个&5有史以来所有模组中最强大的熔炉&r：&6鼓风机加工&r。"
+				""
+				"鼓风机前面放上岩浆或燃烧着的烈焰人燃烧室，就可以用气流熔炼物品。不同于传统的熔炉，鼓风机既可以加工置物台或传送带上的物品堆，也可以加工掉落物形式的物品。这就意味着，&5鼓风机可以同时加工很多很多组掉落物&r，也就是说，&b鼓风机的理论效率上限是无限大的&r。"
+				""
+				"每组物品掉落物/物品堆中的物品数量越多，加工所需的时间就越长。但由于鼓风机是同时加工所有掉落物的，所以这使它在&b加工大量物品&r时尤其有优势。"
+				""
+				""
+				"{@pagebreak}"
+				"鼓风机加工每组物品的时间&b与鼓风机转速无关&r，更快的转速只会让鼓风机把物品吹的更远，但是与同时参与加工的鼓风机数量有关。"
+				""
+				"鼓风机一共有四个加工模式，分别是&4熔炼&r，&e烟熏&r，&b洗涤&r，&1缠魂&r。你可以在JEI中查看每种加工方式对应的配方。"
+			]
+			id: "28A7B2366419E16E"
+			rewards: [{
+				count: 64
+				id: "493997E22FB8C517"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			subtitle: "粒子加工"
+			tasks: [{
+				id: "111694E33D6EBAF2"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28A7B2366419E16E"]
+			description: [
+				"也许你在使用鼓风机的时候会感觉使用流体来改变加工类型很不方便，&b鼓风机触媒&r可以让你用方块形式做到这些。"
+				""
+				"再也不用担心流体会乱流了。"
+			]
+			id: "76E8D1FD20C556B6"
+			rewards: [
+				{
+					id: "4D6B06D7D71E8931"
+					item: "create_connected:fan_blasting_catalyst"
+					type: "item"
+				}
+				{
+					id: "45B33FBFF7BE6B79"
+					item: "create_connected:fan_smoking_catalyst"
+					type: "item"
+				}
+				{
+					id: "112E45C0E9B77021"
+					item: "create_connected:fan_splashing_catalyst"
+					type: "item"
+				}
+				{
+					id: "48D7BA834EEBA0D2"
+					item: "create_connected:fan_haunting_catalyst"
+					type: "item"
+				}
+			]
+			subtitle: "拒绝流体，从我做起"
+			tasks: [{
+				id: "02B3D25B17681045"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			title: "鼓风机触媒"
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6982076E9FD5D239"]
+			description: [
+				"&6曲柄连杆&r是一种机械结构，可以用在蒸汽引擎上，把活塞的水平运动变成旋转力。"
+				""
+				"要制作曲柄连杆，我们需要进行&b序列组装&r，你可以在一条传送带上放四个机械手，并给机械手输入&b齿轮&r和&b传动杆&r，物品直接通过传送带即可完成组装。"
+				""
+				"由于序列组装有多轮循环，所以也可以考虑让物品在两个机械手下面多次经过。用四条传送带可以轻松地设计出来一个&5循环结构&r。"
+				""
+				""
+				"{@pagebreak}"
+				"序列组装不仅可以在传送带上完成，置物台上也可以完成。如果你制造机械手的数量有限，也可以考虑手动更换机械手中的物品来完成组装。"
+			]
+			id: "7D59996A2EA11A95"
+			rewards: [
+				{
+					id: "058B581DCB6496D2"
+					item: "farmersdelight:roasted_mutton_chops"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "65BD3C3FAB994223"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3ADB5B4A3B9DC32D"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			subtitle: "第一个序列组装"
+			tasks: [{
+				id: "0C280B72D3D71D96"
+				item: "wild_n_star:crank_train"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BA54DC4331852CB"]
+			icon: "create:shaft"
+			id: "6982076E9FD5D239"
+			tasks: [{
+				id: "2F0D8897523819B5"
+				type: "checkmark"
+			}]
+			title: "传动杆"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BA54DC4331852CB"]
+			hide_dependency_lines: true
+			icon: "minecraft:piston"
+			id: "48E8232671FA7F7F"
+			tasks: [{
+				id: "261E20127755B246"
+				type: "checkmark"
+			}]
+			title: "活塞"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1BA54DC4331852CB"]
+			hide_dependency_lines: true
+			icon: "create:cogwheel"
+			id: "0BE05393E8E5ACCF"
+			tasks: [{
+				id: "15BBD9A0F49F3A8E"
+				type: "checkmark"
+			}]
+			title: "齿轮"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1BA54DC4331852CB"]
+			hide_dependency_lines: true
+			icon: "create:shaft"
+			id: "080FC005E12688B7"
+			tasks: [{
+				id: "62EBA783C18BEC48"
+				type: "checkmark"
+			}]
+			title: "传动杆"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7D59996A2EA11A95"]
+			id: "20C638D399F5A579"
+			shape: "hexagon"
+			tasks: [{
+				id: "0CE855FDF6A2424D"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
 		}
 	]
 	title: "第二章: 铁与火之歌"

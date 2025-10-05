@@ -236,11 +236,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"6CF4AB5556F9EA66"
-				"0E5A14CA3ECF8F5F"
-				"494409C81DF3C63F"
-			]
+			dependencies: ["494409C81DF3C63F"]
 			description: [
 				"用两块红砖和两块砂岩可以合成出来一种基础的耐火材料。"
 				"用这种材料搭成一个&b2x2x2&r的结构并用&b工程师锤&r右击，可以得到一台简陋的&6合金窑&r。"
@@ -271,10 +267,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"4AF4F9AEBB1389C0"
-				"575375AE8FB6133C"
-			]
+			dependencies: ["575375AE8FB6133C"]
 			description: [
 				"&b安山合金&r是一种性能优良的材料，通过在合金窑中将安山岩和铁融合得到。"
 				""
@@ -308,10 +301,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"086997CE436E78B5"
-				"4942F1E677AB4D0E"
-			]
+			dependencies: ["4942F1E677AB4D0E"]
 			description: [
 				"杂酚油是一种易燃的化学物品，将木板和杂酚油合成可以得到&b防腐木&r。"
 				""
@@ -624,10 +614,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"28FAF26846118EBD"
-				"1396885D1B96919C"
-			]
+			dependencies: ["1396885D1B96919C"]
 			description: [
 				"虽然现在的你一无所有，但是你还可以利用大自然的力量。"
 				""
@@ -661,10 +648,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"4863CDAE61545E9C"
-				"207286565CBF2F10"
-			]
+			dependencies: ["207286565CBF2F10"]
 			description: [
 				"要利用灵气，需要用到黄金树的树叶，但是这种只存在于古代传说中的珍贵树种显然并不在主世界生成。"
 				""
@@ -686,10 +670,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"54CA90564A4FEE38"
-				"7F0E142EB2FC4C8E"
-			]
+			dependencies: ["7F0E142EB2FC4C8E"]
 			description: ["但是，直接使用这种树叶是无法与空气中稀薄的灵气交互的。我们需要想个办法把它&b磨成粉&r。"]
 			id: "571A0A55701C0455"
 			subtitle: "黄金树叶"
@@ -703,10 +684,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"0957CC72953A147C"
-				"7E3602B7DC2A8920"
-			]
+			dependencies: ["7E3602B7DC2A8920"]
 			description: [
 				"用安山合金右击去皮原木，可以得到&b安山机壳&r。这是合成各种机械动力元件的基本材料，也是一种很美观的建材。"
 				""
@@ -769,7 +747,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["6E8FF2118A36F1A4"]
+			dependencies: ["571A0A55701C0455"]
 			hide_dependency_lines: true
 			id: "3C3C7CA2067B7854"
 			tasks: [{

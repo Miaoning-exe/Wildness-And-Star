@@ -18,4 +18,6 @@ ServerEvents.recipes(event => {
         Item.of('immersiveengineering:hammer')
     ])
     .id("wild_n_star:shapeless/dust_bauxite_raw")
+
+    
 })

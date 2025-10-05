@@ -9,5 +9,4 @@ ServerEvents.recipes(event => {
         'naturesaura:gold_leaf'
     ])
     .id("wild_n_star:crushing/gold_powder")
-
 })
