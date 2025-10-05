@@ -6,8 +6,8 @@ ServerEvents.recipes(event => {
         " B ",
         " C "
     ], {
-        A: '#minecraft:wooden_slabs',
-        B: "wild_n_star:nature_crystal", 
+        A: 'wild_n_star:organic_gels',
+        B: 'create:andesite_casing', 
         C: "create:shaft"
     })
 })

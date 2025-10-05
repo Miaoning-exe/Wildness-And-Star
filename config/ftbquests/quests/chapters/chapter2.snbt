@@ -15,14 +15,6 @@
 			y: 0.0d
 		}
 		{
-			height: 4.5d
-			image: "ftbquests:textures/ftbmisc/mixer.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.0d
-			y: -3.0d
-		}
-		{
 			height: 1.0d
 			image: "ftbquests:textures/ftbmisc/chute.png"
 			rotation: 0.0d
@@ -45,78 +37,6 @@
 			width: 1.0d
 			x: 22.998299319727934d
 			y: 0.2666666666666657d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/basin.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.0d
-			y: -0.5d
-		}
-		{
-			height: 3.0d
-			image: "ftbquests:textures/ftbmisc/press.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: 0.9952380952381148d
-			y: -3.6588435374149597d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/basin.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/pipe.png"
-			rotation: 90.0d
-			width: 1.5d
-			x: -2.857142857142854d
-			y: -0.4921768707483025d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/pipe.png"
-			rotation: 90.0d
-			width: 1.5d
-			x: -2.0d
-			y: -0.5d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/pipe.png"
-			rotation: 90.0d
-			width: 1.5d
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/pipe.png"
-			rotation: 90.0d
-			width: 1.5d
-			x: -0.5d
-			y: -0.5d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/pipe.png"
-			rotation: 90.0d
-			width: 1.5d
-			x: 0.0d
-			y: -0.5d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/pipe.png"
-			rotation: 90.0d
-			width: 1.5d
-			x: -5.5d
-			y: -0.5d
 		}
 		{
 			height: 1.0d
@@ -439,22 +359,6 @@
 			y: 1.0d
 		}
 		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/drain.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.5d
-			y: -0.6785714285714235d
-		}
-		{
-			height: 1.5d
-			image: "ftbquests:textures/ftbmisc/pipe.png"
-			rotation: 90.0d
-			width: 1.5d
-			x: -5.0d
-			y: -0.5d
-		}
-		{
 			height: 2.0d
 			image: "ftbquests:textures/ftbmisc/crush.png"
 			rotation: 0.0d
@@ -750,6 +654,102 @@
 			x: 31.5d
 			y: 9.0d
 		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/drain.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 14.5d
+			y: 6.480272108843536d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: 15.5d
+			y: 6.65884353741496d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/basin.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 17.0d
+			y: 6.65884353741496d
+		}
+		{
+			height: 4.5d
+			image: "ftbquests:textures/ftbmisc/mixer.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 17.0d
+			y: 4.15884353741496d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: 16.0d
+			y: 6.65884353741496d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: 18.142857142857146d
+			y: 6.666666666666657d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: 19.0d
+			y: 6.65884353741496d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: 21.0d
+			y: 6.65884353741496d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: 20.5d
+			y: 6.65884353741496d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: 19.5d
+			y: 6.65884353741496d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/basin.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 22.0d
+			y: 6.65884353741496d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/press.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 21.995238095238115d
+			y: 3.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -777,51 +777,6 @@
 			}]
 			x: -16.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["18C617727812B257"]
-			description: [
-				"如果你不想使用水力，也可以使用风力来产生动能。"
-				""
-				""
-				"放置风车轴承后，在上面放置一些&b羊毛&r或者&b风帆&r，然后&a用强力胶粘起来&r，可以搭建风车。"
-				"风车的好处是产生的旋转速度和应力量更大，但缺点是搭建较为麻烦。"
-			]
-			id: "16A019D423E8420E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "16D004F1496A90EB"
-					table_id: 8924054224415382308L
-					type: "random"
-				}
-				{
-					count: 16
-					id: "30F237B897AB5D7D"
-					item: "minecraft:white_wool"
-					type: "item"
-				}
-			]
-			subtitle: "清洁能源"
-			tasks: [
-				{
-					id: "2B121285CAE8AAB4"
-					item: "create:windmill_bearing"
-					type: "item"
-				}
-				{
-					id: "32052BE026D0DE0A"
-					item: "minecraft:white_wool"
-					type: "item"
-				}
-				{
-					id: "5674B72C3CABACC4"
-					item: "create:white_sail"
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["403CAA6893B86BBF"]
@@ -902,7 +857,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["10D38886E3A85E56"]
 			description: [
 				"搅拌器和工作盆的组合可以&b自动合成&r某些配方，包括无序合成以及一些特殊配方。"
 				""
@@ -952,59 +906,6 @@
 			}]
 			title: "新的金属"
 			x: -14.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["3C78D48526D97F20"]
-			description: [
-				"&b分液池&r可以把容器（比如桶，瓶子等）中的流体倒进管道系统，你只需要把物品丢到分液池上即可，物品分液完成后会自动滚过分液池。"
-				""
-				"&6注液器&r可以把流体注入容器中，在注液器下方第二格放置置物台或传送带，然后在上面放置物品，就会自动完成注液。"
-				""
-				""
-				"值得注意的是，即使不能分液的物品也能滚过分液池。也许我们可以运用这个特性，在目前做不出传送带的情况下，&6用分液池运输物品&r...?"
-			]
-			id: "10D38886E3A85E56"
-			rewards: [
-				{
-					count: 2
-					id: "21CF84C0A07ABF02"
-					item: "create:water_wheel"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3CA8005188DE0777"
-					table_id: 8924054224415382308L
-					type: "random"
-				}
-				{
-					count: 4
-					id: "784A1177FFD5F599"
-					item: "create:builders_tea"
-					type: "item"
-				}
-				{
-					id: "01B2067FB2C17E2E"
-					item: "create:whisk"
-					type: "item"
-				}
-			]
-			subtitle: "分液和注液"
-			tasks: [
-				{
-					id: "1F8572C9D6682E9F"
-					item: "create:item_drain"
-					type: "item"
-				}
-				{
-					id: "5AC6554B1A214BE3"
-					item: "create:spout"
-					type: "item"
-				}
-			]
-			title: "流体处理"
-			x: -9.0d
 			y: -0.5d
 		}
 		{
@@ -1096,7 +997,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["10D38886E3A85E56"]
 			description: ["置物台上的物品以物品堆的形式放置，可以被例如辊压机、注液器的元件加工。"]
 			id: "0801E275874E2B4B"
 			tasks: [{
@@ -1108,10 +1008,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"10D38886E3A85E56"
-				"7B9B990FB4981431"
-			]
+			dependencies: ["7B9B990FB4981431"]
 			description: [
 				"一个可以放入原材料进行加工的盆。"
 				""
@@ -1223,7 +1120,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["10D38886E3A85E56"]
 			description: [
 				"将瓶装阳光中的灵气倒出来就得到了&a液态灵气&r，这种浅绿色的液体中蕴含着庞大的自然力量。"
 				""
@@ -1330,84 +1226,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["10D38886E3A85E56"]
-			description: [
-				"&b树汁提取器&r能从树中提取多种资源。"
-				""
-				"树汁提取器能提取出树汁的条件："
-				"1.放在橡胶树或丛林木的&6树根处&r"
-				"2.树底下的方块一定要是草，石头或泥土"
-				"3.树干上有自然生成的树叶"
-				"4.上方没有其他树汁提取器"
-				""
-				"总之就是放在一棵&6自然生长的树的树根处&r即可。四个方向可以摆放四个提取器，但效率会相应降低。"
-				"你还可以在树汁提取器内放入骨粉或植育一号化肥提高产量。"
-			]
-			id: "053E269E8C31DED8"
-			rewards: [
-				{
-					id: "52E2D5B81C92126B"
-					item: "thermal:latex_bucket"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4AEF865495ABAA17"
-					item: "thermal:rubberwood_sapling"
-					type: "item"
-				}
-			]
-			subtitle: "不止可以提取树汁"
-			tasks: [
-				{
-					id: "12E814816964861E"
-					item: "thermal:device_tree_extractor"
-					type: "item"
-				}
-				{
-					id: "0C7B148C17C4FB7B"
-					item: "thermal:latex_bucket"
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["053E269E8C31DED8"]
-			description: ["直接将植物胶乳压制即可得到固态的橡胶"]
-			id: "528545634261D29A"
-			rewards: [
-				{
-					count: 4
-					id: "506ACEC4FE9FC2A7"
-					item: "thermal:sulfur"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "581453219DF99DD8"
-					table_id: 8924054224415382308L
-					type: "random"
-				}
-				{
-					id: "3790E376901FA351"
-					item: "pamhc2foodcore:chocolatebaritem"
-					type: "item"
-				}
-			]
-			subtitle: "橡胶工业"
-			tasks: [{
-				count: 16L
-				id: "5753E39CEED45298"
-				item: { Count: 16, id: "thermal:rubber" }
-				type: "item"
-			}]
-			title: "橡胶"
-			x: -1.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["528545634261D29A"]
 			description: [
 				"生橡胶不易成型，容易磨损，所以将生橡胶硫化后即可得到&e硫化橡胶&r。这是一种性能优良的高分子材料。"
@@ -1443,104 +1261,6 @@
 			title: "硫化橡胶"
 			x: 1.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["4CFC5C147453783E"]
-			description: [
-				"通入动力后，动力轴承可以把普通的方块变为&b动态结构&r。"
-				""
-				"动态结构的应用非常广泛，而且可以达到很多你想象不到的效果。比如，在动态结构上放&b动力锯&r，就可以&2自动砍树&r，转速越快砍树速度越快，根据这一原理可以很简单地做出一个树场。"
-				""
-				"你可以在蓝图桌上找到整合包预制的树场蓝图，作为一个参考。"
-			]
-			id: "5FF08368F35EBB25"
-			rewards: [{
-				count: 3
-				id: "56023A00DCD38F22"
-				item: "create:mechanical_saw"
-				type: "item"
-			}]
-			subtitle: "伟大，无需多言"
-			tasks: [{
-				id: "3A8D30C9EDC1955A"
-				item: "create:mechanical_bearing"
-				type: "item"
-			}]
-			title: "动态结构"
-			x: 9.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["16A019D423E8420E"]
-			description: [
-				"使用有机凝胶可以制作&a强力胶&r。"
-				""
-				"这种胶的粘性比史莱姆球更强，可以把方块粘合在一起，作为&b动态结构&r的组成部分。"
-			]
-			id: "4CFC5C147453783E"
-			rewards: [
-				{
-					count: 16
-					id: "5D3EE5E51DD2C598"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "04DD4ACA7CF1DDB3"
-					table_id: 8924054224415382308L
-					type: "random"
-				}
-			]
-			subtitle: "超超超超超强力胶"
-			tasks: [{
-				id: "3093A178F4B23C1A"
-				item: {
-					Count: 1
-					id: "create:super_glue"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5FF08368F35EBB25"]
-			description: [
-				"在移动中的动态结构上输入输出物品可能会很困难，但是&b移动式存储接口&r做到了这一点。"
-				""
-				"将一对移动式存储接口面对面放置，中间间隔一格，其中一个用强力胶粘在动态结构上，就可以&b从动态结构输入或向动态结构输出物品&r。"
-				""
-				"长按W打开思索，可以看到更详细的动画教程。"
-			]
-			id: "270EF8C917A01AB3"
-			rewards: [
-				{
-					count: 2
-					id: "0F14DD20ED70FF61"
-					item: "create:portable_fluid_interface"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "32D52ECDF54335EE"
-					item: "minecraft:barrel"
-					type: "item"
-				}
-			]
-			subtitle: "Dynamic  IO"
-			tasks: [{
-				count: 2L
-				id: "37087C540C57D6D6"
-				item: "create:portable_storage_interface"
-				type: "item"
-			}]
-			title: "移动式存储接口"
-			x: 12.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["0801E275874E2B4B"]
@@ -2437,83 +2157,6 @@
 			}]
 			x: 44.03333333333333d
 			y: 5.554761904761904d
-		}
-		{
-			dependencies: ["5FF08368F35EBB25"]
-			description: [
-				"&b动力锯&r是一种多功能设备。它的功能有："
-				""
-				"1.加工物品，例如在序列组装中进行切割步骤。"
-				"2.自动切石机，记得在配方栏位上放上你需要得到的物品，否则它会按顺序输出每个可能切出来的物品。"
-				"3.自动砍树，而且自带连锁功能，你可以把它放在动态结构上。"
-			]
-			id: "1D41ECC353A8FB64"
-			subtitle: "小心伤人"
-			tasks: [{
-				id: "22B24AEE782C4716"
-				item: "create:mechanical_saw"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5FF08368F35EBB25"]
-			description: ["动力钻头可以用来自动&b破坏方块&r，输入的转速越高，或者所在的动态结构的线速度越大，破坏效率越快。"]
-			id: "18FC4BB3D00C8025"
-			tasks: [{
-				id: "0867E093CE5DC6E2"
-				item: "create:mechanical_drill"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5FF08368F35EBB25"]
-			description: [
-				"收割机放在动态结构上后会&b自动收获农作物并补种&r。"
-				""
-				"本质上是重置作物生长状态。"
-			]
-			id: "416717C234297C4F"
-			subtitle: "农业自动化"
-			tasks: [{
-				id: "35BDCD382CED697C"
-				item: "create:mechanical_harvester"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5FF08368F35EBB25"]
-			description: [
-				"动力犁可以用来自动铲除地上的一些轻薄物品，如草，铁轨，红石线等。"
-				""
-				"也可以用来自动耕地。"
-			]
-			id: "61CDBF99A8AC8266"
-			tasks: [{
-				id: "661D1C326202EC6A"
-				item: "create:mechanical_plough"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["5FF08368F35EBB25"]
-			description: ["动力压路机可以自动放置方块，并清理前方道路上的方块。"]
-			id: "707E6FA828A06732"
-			subtitle: "百吨王"
-			tasks: [{
-				id: "53697D9C1CB15B0D"
-				item: "create:mechanical_roller"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -6.5d
 		}
 		{
 			dependencies: ["6BC1B6339FE8E200"]
