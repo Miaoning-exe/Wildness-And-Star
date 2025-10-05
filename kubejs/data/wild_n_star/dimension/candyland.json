@@ -1,0 +1,27 @@
+{
+    "type": "wild_n_star:candyland",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "layers": [
+          {
+            "block": "minecraft:grass_block",
+            "height": 1
+          },
+          {
+            "block": "minecraft:stone",
+            "height": 1
+          },
+          {
+            "block": "minecraft:stone",
+            "height": 1
+          },
+          {
+            "block": "minecraft:stone",
+            "height": 1
+          }
+        ],
+        "biome": "alexscaves:candy_cavity"
+      }
+    }
+  }

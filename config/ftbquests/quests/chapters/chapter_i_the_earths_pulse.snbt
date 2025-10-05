@@ -1,0 +1,1050 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_i_the_earths_pulse"
+	group: "76C8AA65A16308EB"
+	icon: "ad_astra:earth_globe"
+	id: "5821D95A9D3411A5"
+	images: [
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			height: 2.5d
+			image: "supplementaries:textures/map_marker/nether_portal.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7CB9D4A92EFD9181"]
+			description: ["用拳头殴打一棵树直到它爆出木头"]
+			icon: "minecraft:oak_log"
+			id: "1396885D1B96919C"
+			subtitle: "砍点树吧"
+			tasks: [{
+				count: 16L
+				id: "4A628894C21D914F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "一切的开始"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			icon: "ad_astra:earth_globe"
+			id: "7CB9D4A92EFD9181"
+			subtitle: "Chapter I: The Earth's Pulse"
+			tasks: [{
+				id: "3150B735F96898E2"
+				title: "第一章: 地球脉动"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1396885D1B96919C"]
+			description: [
+				"在地下你可能会发现以前从未见过的矿石，直觉告诉你，它们应该都是有用的。"
+				"先收集一些&e铁和铜&r吧，这对前期的工业发展非常重要。"
+			]
+			id: "0E8A790D85F049A0"
+			rewards: [
+				{
+					count: 16
+					id: "7AE161B194A13358"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "21043ED9A5B0372D"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3553D92A13A503CD"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			subtitle: "挖点矿吧"
+			tasks: [
+				{
+					count: 16L
+					id: "37C728D36CA396B1"
+					item: { Count: 16, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4FEDACC45A3DF537"
+					item: { Count: 16, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			title: "常用的金属"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0E8A790D85F049A0"]
+			description: [
+				"制作一把工程师锤，然后用工程师锤&6右击多方块结构&r才能完成机器的构建。"
+				""
+				"它的另外一个作用是可以把矿石敲碎，让你在前期没有粉碎机的情况下得到金属粉末。"
+				""
+				"“这可比粉碎机快多了。”"
+			]
+			id: "494409C81DF3C63F"
+			rewards: [
+				{
+					id: "0B4D5E1E0BCCE77B"
+					item: {
+						Count: 1
+						id: "immersiveengineering:wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "756F1F4724C7EA93"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+			]
+			subtitle: "效率远大于粉碎机"
+			tasks: [{
+				id: "6164A4D96B26CDCB"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1396885D1B96919C"]
+			description: [
+				"铝元素在地壳中的含量仅次于氧和硅，居第三位，是地壳中含量最丰富的金属元素。"
+				"铝土矿也被广泛用于制造各种耐火材料，比如&4耐火黏土&r。"
+				""
+				"然而，由于铝的性质十分活泼，所以简单的烧炼并不能提取出纯净的铝锭。以我们目前的技术，只能利用它的矿物形式了。"
+			]
+			icon: "immersiveengineering:raw_aluminum"
+			id: "7A9AC867D39B5910"
+			rewards: [{
+				count: 16
+				id: "7D58CF034B3A2D25"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "627065E37E745C92"
+				item: { Count: 16, id: "immersiveengineering:raw_aluminum" }
+				type: "item"
+			}]
+			title: "构成大地的元素"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A9AC867D39B5910"]
+			description: [
+				"&b焦炉&r是一个非常重要的设备。将焦炉砖摆成&b3x3x3&r的实心结构，并用工程师锤右击，可以搭建焦炉。焦炉砖提供的密闭环境和高温足够我们把普通&b煤炭&r裂解成&6焦煤&r和&c杂酚油&r。"
+				""
+				"当然，这一过程耗费的时间并不短。"
+				""
+				"注意，当焦炉的杂酚油存满时并不会继续工作，所以你需要及时把杂酚油导出。"
+			]
+			icon: "immersiveengineering:coke_oven"
+			id: "4942F1E677AB4D0E"
+			rewards: [{
+				count: 16
+				id: "5E046F7CF55C32E0"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "07FA018321A75B8A"
+					item: "wild_n_star:fire_clay"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "21CD61A70C9E0C55"
+					item: { Count: 27, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+			]
+			title: "热火朝天"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4942F1E677AB4D0E"]
+			icon: "immersiveengineering:coal_coke"
+			id: "2D4B17CD555F7C7B"
+			subtitle: "比煤炭更好"
+			tasks: [{
+				count: 16L
+				id: "04D96EDC307A3040"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			title: "焦煤"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6CF4AB5556F9EA66"
+				"0E5A14CA3ECF8F5F"
+				"494409C81DF3C63F"
+			]
+			description: [
+				"用两块红砖和两块砂岩可以合成出来一种基础的耐火材料。"
+				"用这种材料搭成一个&b2x2x2&r的结构并用&b工程师锤&r右击，可以得到一台简陋的&6合金窑&r。"
+				""
+				"虽然效率不高，但它能提供比一般的熔炉高的多的高温，足够把金属融合在一起。使用合金窑可以合成安山合金，这是机械动力的基本材料。"
+				""
+				""
+				"{@pagebreak}"
+				"如果你不想使用合金窑，也可以试试&4匠魂的冶炼炉&r。匠魂在整合包内属于可选玩法，并非必做的任务。有关匠魂的引导请查看&b间章：工欲善其事&r。"
+			]
+			id: "575375AE8FB6133C"
+			rewards: [{
+				id: "5CBE4EEAC257519F"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "土法合金"
+			tasks: [{
+				count: 8L
+				id: "76AC21AF239160C9"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			title: "生火烧窑！"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4AF4F9AEBB1389C0"
+				"575375AE8FB6133C"
+			]
+			description: [
+				"&b安山合金&r是一种性能优良的材料，通过在合金窑中将安山岩和铁融合得到。"
+				""
+				"有了安山合金，你就可以制作&6机械动力&r中的各种机器了。"
+			]
+			id: "7E3602B7DC2A8920"
+			rewards: [
+				{
+					count: 16
+					id: "2EEB4377297185C8"
+					item: "minecraft:stripped_oak_wood"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "25D7C7AEE319F801"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "机械动力的基础"
+			tasks: [{
+				count: 16L
+				id: "6F19BFDBD46A4FC9"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "安山时代！"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"086997CE436E78B5"
+				"4942F1E677AB4D0E"
+			]
+			description: [
+				"杂酚油是一种易燃的化学物品，将木板和杂酚油合成可以得到&b防腐木&r。"
+				""
+				""
+				""
+			]
+			id: "3D81B0FE2FFC91A1"
+			rewards: [{
+				count: 4
+				id: "69E50C32E7825674"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			subtitle: "可以喝吗？"
+			tasks: [{
+				id: "62D8625E98189D22"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			title: "杂酚油"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21766696208BF2AD"]
+			description: [
+				"使用防腐木板合成一个工程师工作台，然后放上对应的&b蓝图&r，你就可以手动加工一些机械零件。"
+				""
+				"在材料格子里无序地放入对应材料，直接点击右边的零件即可合成。"
+				""
+				"也许你会发现有些蓝图是无法合成的，要获得它们，你只需要翻翻箱子。"
+			]
+			id: "0FFB55D41F8E7A57"
+			rewards: [
+				{
+					id: "73072D5038591BDE"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "create"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "271889896193E3D7"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			subtitle: "从0 开始的工程师之旅...?"
+			tasks: [{
+				id: "028FE3CA544FB17C"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			title: "工程师装配台"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D81B0FE2FFC91A1"]
+			description: [
+				"八个木板和一桶杂酚油合成可以得到&6防腐木板&r。"
+				"你也可以直接用盛有杂酚油的&b储罐&r来代替杂酚油桶合成防腐木，可以大大提高效率。"
+			]
+			id: "21766696208BF2AD"
+			rewards: [{
+				id: "38315A39C26118A7"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "\"沉浸\"工程"
+			tasks: [{
+				count: 8L
+				id: "62842D0313BE0E9A"
+				item: { Count: 8, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			title: "防腐处理"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D81B0FE2FFC91A1"]
+			icon: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "501C3056CA850A6B"
+			subtitle: "我们需要更深入些"
+			tasks: [
+				{
+					id: "561BD46E448598E7"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "5747AC22E0F2BF44"
+					type: "dimension"
+				}
+			]
+			title: "前往下界"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["501C3056CA850A6B"]
+			description: [
+				"与焦炉的摆放方法类似，把高炉砖摆放成&b3x3x3&r的实心方块，然后用&6工程师锤右击&r可以搭建高炉。"
+				""
+				"高炉可以提供极高的温度，把铁锭冶炼成钢。"
+			]
+			id: "1866C0B22B81E946"
+			rewards: [
+				{
+					count: 16
+					id: "199F7891F853E188"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "56CBB7FAD1C51372"
+					item: "farmersdelight:glow_berry_custard"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "加热加热加热！"
+			tasks: [{
+				count: 27L
+				id: "64E00FB817F8DADB"
+				item: { Count: 27, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FFB55D41F8E7A57"]
+			description: [
+				"在工程师工作台上可以手动合成一些零件，包括齿轮，传动杆，流体管道等。"
+				""
+				"齿轮是最基本的传动元件，两个小齿轮可以互相啮合，横向传递动力；用大齿轮带动小齿轮，转速会&b加倍&r；反之，用小齿轮带动大齿轮，转速会&b减半&r。"
+				""
+				"通过齿轮传动杆的组合，可以将机械动力的机器和应力源（如手摇曲柄，水车，风车等）接入动力。"
+			]
+			icon: "create:cogwheel"
+			id: "5A53686D23FBD30C"
+			rewards: [
+				{
+					count: 16
+					id: "378286C6743B7427"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7695ACAB298AA629"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "72DB37DB34F72B1D"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			subtitle: "动画效果一流"
+			tasks: [
+				{
+					id: "47678ECCD2CB27C6"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7D383C675AA66BC0"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5559D96B287CAAD3"]
+			description: [
+				"关于机械动力每个零件和机器的详细使用方式，你可以将鼠标悬浮在对应物品上，&b长按W&r打开&6思索&r。"
+				""
+				"这是有史以来&b最优秀的动画教学系统&r。"
+				""
+				"多发动俺寻思之力，你也能迅速成为一名优秀的机械师。"
+			]
+			icon: "create:brass_hand"
+			id: "2A6EF07D4A7B3E23"
+			rewards: [{
+				count: 16
+				id: "59A7E8C403ABFC74"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "按W发动俺寻思之力"
+			tasks: [{
+				id: "1BC97C46908D403E"
+				type: "checkmark"
+			}]
+			title: "思索"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A53686D23FBD30C"]
+			description: [
+				"十字齿轮箱可以方便地改变传动方向。用扳手右击一下，可以变成&b竖直十字齿轮箱&r。"
+				""
+				"注意，虽然十字齿轮箱四个方向都可以传动，但同向的两根传动杆的旋转方向是&b相反的&r。"
+				""
+				""
+				"{@pagebreak}"
+				"链式传动箱可以传递一排平行的动力,同一行的链式传动箱可以互相传递动力。任意将一行中的一个链式传动箱&b旋转90度&r，仍可正常传递动力。"
+				""
+				"更高级的传动方式将在后续章节介绍。"
+			]
+			id: "4C62A6664E8B587A"
+			rewards: [{
+				count: 4
+				id: "458B60774870D18C"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			subtitle: "便捷地传动"
+			tasks: [
+				{
+					id: "7D585C4128B8B09E"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "4C80D787B5DE8C24"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1866C0B22B81E946"]
+			description: ["恭喜你炼出了第一块钢锭！这种坚硬的材料可以合成新的机器。"]
+			id: "7E61DB223D1F558A"
+			rewards: [{
+				count: 32
+				id: "03E7AE5D9320E874"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "非常强，非常硬"
+			tasks: [{
+				count: 4L
+				id: "6CE8F1F8DD0FF3FC"
+				item: { Count: 4, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			title: "炼钢"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FFB55D41F8E7A57"]
+			description: [
+				"在工程师工作台上可以手动合成一些零件，包括齿轮，传动杆，流体管道等。"
+				""
+				"传动杆是机械动力的基本传动元件，放置方向可以用扳手调整。"
+			]
+			id: "5559D96B287CAAD3"
+			tasks: [{
+				count: 4L
+				id: "206910D00EF2B8D7"
+				item: { Count: 4, id: "create:shaft" }
+				type: "item"
+			}]
+			title: "传动杆"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"28FAF26846118EBD"
+				"1396885D1B96919C"
+			]
+			description: [
+				"虽然现在的你一无所有，但是你还可以利用大自然的力量。"
+				""
+				"这个世界的空气、土壤和水源中存在着一种名为“&b灵气&r”的能量，利用这种能量可以帮助你合成物品，加速作物生长，以及一些神奇的功能。"
+				""
+				"或许......也能够帮我们从自然中获得&6动能&r和&6机械能&r？"
+				"{@pagebreak}"
+				"关于这部分的内容，可以查阅你手中的&a自然灵气之书&r，如果你没有的话，可以用纸、皮革和树苗合成一本。"
+			]
+			id: "7123E1AF1BA79B33"
+			rewards: [{
+				count: 4
+				id: "1FF93BF36F495F0D"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			subtitle: "拥抱大自然"
+			tasks: [{
+				id: "19567AF374DF1E82"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			title: "自然灵气"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"4863CDAE61545E9C"
+				"207286565CBF2F10"
+			]
+			description: [
+				"要利用灵气，需要用到黄金树的树叶，但是这种只存在于古代传说中的珍贵树种显然并不在主世界生成。"
+				""
+				"但是我们有另一种方法得到黄金树叶，只需要合成&e闪耀纤维&r，然后将它放在任意一棵树的树叶上，在时间的作用下,这棵树便会转化成一颗黄金树。"
+			]
+			id: "7F0E142EB2FC4C8E"
+			rewards: [{
+				id: "779FDEBBCBEFAD58"
+				item: "minecraft:raw_gold_block"
+				type: "item"
+			}]
+			subtitle: "人工转化"
+			tasks: [{
+				id: "0FCBB034FF53B93C"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"54CA90564A4FEE38"
+				"7F0E142EB2FC4C8E"
+			]
+			description: ["但是，直接使用这种树叶是无法与空气中稀薄的灵气交互的。我们需要想个办法把它&b磨成粉&r。"]
+			id: "571A0A55701C0455"
+			subtitle: "黄金树叶"
+			tasks: [{
+				count: 10L
+				id: "5D570B50953DD099"
+				item: { Count: 10, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0957CC72953A147C"
+				"7E3602B7DC2A8920"
+			]
+			description: [
+				"用安山合金右击去皮原木，可以得到&b安山机壳&r。这是合成各种机械动力元件的基本材料，也是一种很美观的建材。"
+				""
+				"类似的方法还可以用来合成黄铜机壳和铜机壳。当然，以后还有更简便的方法生产安山机壳。"
+			]
+			id: "77B80CE7548C36E1"
+			rewards: [
+				{
+					count: 4
+					id: "02521732E081C62A"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4028BB24BAADD508"
+					item: "minecraft:stripped_oak_log"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60C60AFC0E1B81C4"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["77B80CE7548C36E1"]
+			description: [
+				"利用石磨，可以把一些坚硬的物质磨成粉末。足够我们处理黄金树叶了。"
+				"如果你正在疑惑齿轮应该怎么得到，可以看看下面的&4杂酚油&r任务线。"
+			]
+			id: "771BBBD604E7F4BC"
+			subtitle: "初等研磨"
+			tasks: [{
+				id: "035594C74FE0DCF9"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["771BBBD604E7F4BC"]
+			description: [
+				"很不幸，你现在能利用的动力来源只有人工动力。"
+				""
+				"放下石磨后，在石磨旁边放一个&b小齿轮&r，然后在齿轮的传动杆上接一个手摇曲柄，&6长按右键&r即可产生动力。Shift+右键可以相反方向转动。"
+			]
+			id: "1758653FE5DD80BB"
+			subtitle: "人工动力"
+			tasks: [{
+				id: "0F66E47704C650D4"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E8FF2118A36F1A4"]
+			hide_dependency_lines: true
+			id: "3C3C7CA2067B7854"
+			tasks: [{
+				count: 16L
+				id: "38BA76B84364DE17"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C3C7CA2067B7854"]
+			description: [
+				"为了取代效率低下的人工动力，我们需要合成水车。但是，我们需要通过&a自然晶体&r来制造这种可以把自然的力量转化为机械能的机器。"
+				""
+				"要合成自然晶体，首先要举行森林仪式。仪式祭坛的摆放方式如下图所示。你也可以打开&b自然灵气之书&r的自然实践-森林仪式章节，获得仪式祭坛的全息投影。当祭坛中间的&b树苗长大&r时，合成就会开始。如果你不想等它长大，也可以用骨粉催熟。"
+				"{@pagebreak}"
+				"木质基座支持&b自动输入&r，所以如果你不想手动放置合成材料，可以想想自动化的方法。"
+			]
+			icon: "naturesaura:wood_stand"
+			id: "5BC725CC9AF98714"
+			rewards: [{
+				count: 16
+				id: "18B2E8DA9D5BF3B3"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			subtitle: "灵气实践的第一步！"
+			tasks: [
+				{
+					count: 8L
+					id: "08BAE952897CF997"
+					item: { Count: 8, id: "naturesaura:wood_stand" }
+					type: "item"
+				}
+				{
+					id: "3EE8F69EFAA2A8D8"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			title: "森林仪式"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5BC725CC9AF98714"]
+			description: [
+				"使用木板和玻璃瓶合成&b瓶与塞&r之后，在空气中右键就可以把灵气收集起来。"
+				""
+				"如果你不想手动收集灵气，也可以在&6发射器&r里放入瓶与塞，并且发射器没有方块阻挡，发射出来的就是瓶装灵气（根据所在维度不同，可以获得瓶装阳光、瓶装鬼魂、瓶装黑暗等），这提供了一种&b自动化方式&r。"
+				""
+				"太合理了。"
+			]
+			icon: {
+				Count: 1
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			}
+			id: "06B00A20CB74CDBD"
+			rewards: [{
+				count: 4
+				id: "378F120E88069EAA"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "不是液态阳光"
+			tasks: [
+				{
+					id: "3BCA1167111E7C07"
+					item: "naturesaura:bottle_two_the_rebottling"
+					type: "item"
+				}
+				{
+					id: "7173E9B118F692ED"
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "瓶装阳光"
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["06B00A20CB74CDBD"]
+			description: [
+				"用任意的种子和花，加上苔藓块、杜鹃花丛和一点点灵气，在两种黄金造物的催化下，你就得到了这种碧绿透明的晶体。"
+				""
+				"&a自然晶体&r代表着你对自然能量的掌握，现在，是时候让自然的力量代替我们工作了。"
+			]
+			id: "4085F4A3C238EF00"
+			rewards: [
+				{
+					count: 16
+					id: "0F43B02F3E4CC11C"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5DAF57DE2022B877"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3E13F11BB8DB1365"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "如阳光般纯净"
+			tasks: [{
+				id: "70D05257932D96C8"
+				item: "wild_n_star:nature_crystal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["06B00A20CB74CDBD"]
+			description: [
+				"&a自然指南针&r可以快速地帮你定位世界中的群系。"
+				"打开自然指南针的界面，搜索你想去的群系，然后点击开始搜索，就可以得到这个群系的坐标。"
+				""
+				"如果没有搜索到，可以跑远一点重新搜索。"
+			]
+			id: "3AEF68A766ED1CCA"
+			rewards: [
+				{
+					count: 2
+					id: "3D53478C467594DB"
+					item: "minecraft:flowering_azalea"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6FAA4710A3C6E1AE"
+					item: "minecraft:azalea"
+					type: "item"
+				}
+			]
+			subtitle: "找不到杜鹃花丛？"
+			tasks: [{
+				id: "436FA4E759A6B16E"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3AEF68A766ED1CCA"]
+			description: ["与自然指南针类似，探险家指南针可以帮助你搜索世界上的结构。"]
+			id: "72E4DAEAB1CD3D4E"
+			subtitle: " 不要用来搜索埋藏的宝藏"
+			tasks: [{
+				id: "0EC8E460E1744185"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4085F4A3C238EF00"]
+			description: [
+				"终于可以把那些手摇曲柄丢进垃圾桶了！"
+				""
+				"在水车旁边放置&b流动的水&r，就可以带动水车运动。"
+				""
+				"也许别的什么液体也可以。"
+			]
+			id: "1903997AD806A4C4"
+			subtitle: "水力发...等等，还不能发电"
+			tasks: [{
+				count: 4L
+				id: "1C344D258115585F"
+				item: { Count: 4, id: "create:water_wheel" }
+				type: "item"
+			}]
+			title: "水车"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1903997AD806A4C4"]
+			description: [
+				"便捷地销毁物品。"
+				""
+				"可以自动输入，还有流体垃圾桶、终极垃圾桶等变种。"
+			]
+			id: "63342E52C7E49360"
+			tasks: [{
+				id: "1361D0BB52B96A19"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7E61DB223D1F558A"
+				"1903997AD806A4C4"
+			]
+			id: "4D3C4C49AFC5BBC0"
+			tasks: [{
+				id: "29F1B38DC89A6716"
+				title: "解锁新章节"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7123E1AF1BA79B33"]
+			id: "207286565CBF2F10"
+			subtitle: "金光闪闪"
+			tasks: [{
+				id: "76745544699BFF02"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0FFB55D41F8E7A57"]
+			id: "078E6DF7CCA2AF7C"
+			tasks: [{
+				id: "7F1743C3B0037C36"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["078E6DF7CCA2AF7C"]
+			id: "52506277A9BB6BC5"
+			tasks: [{
+				id: "7C96D6DDA5546DA2"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+	title: "第一章: 地球脉动"
+}

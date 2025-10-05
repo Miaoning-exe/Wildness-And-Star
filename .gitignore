@@ -1,0 +1,24 @@
+.vscode/
+*.log
+backups/
+crash-reports/
+defaultconfigs/
+fancymenu_data/
+local/
+logs/
+modernfix/
+patchouli_books/
+PCL/
+saves/
+screenshots/
+*natives/
+xaero/
+XaeroWaypoints_*/
+patchouli_data.json
+rhino.local.properties
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
+Wilderness and Star.jar
+Wilderness and Star.json
+options.txt

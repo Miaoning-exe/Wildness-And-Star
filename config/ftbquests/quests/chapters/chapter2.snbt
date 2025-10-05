@@ -1,0 +1,2596 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter2"
+	group: ""
+	icon: "btb:machine_crystal"
+	id: "5DADB23C24A14761"
+	images: [
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			height: 4.5d
+			image: "ftbquests:textures/ftbmisc/mixer.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/ftbmisc/spout.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.998299319727934d
+			y: 0.2666666666666657d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/basin.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/press.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.9952380952381148d
+			y: -3.6588435374149597d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/basin.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: -2.857142857142854d
+			y: -0.4921768707483025d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/ftbmisc/spout.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.998299319727934d
+			y: 0.2870748299319814d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 29.0d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/drain.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.5d
+			y: -0.6785714285714235d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/ftbmisc/pipe.png"
+			rotation: 90.0d
+			width: 1.5d
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/ftbmisc/crush.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 38.115306122449d
+			y: -3.172448979591813d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/ftbmisc/crush.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.858163265306175d
+			y: -3.182653061224464d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.5d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 36.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 36.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/mechanical_saw_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.31275510204081d
+			y: 9.880952380952372d
+		}
+		{
+			height: 1.0d
+			image: "create:block/saw_reversed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.31275510204081d
+			y: 9.380952380952372d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 39.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.5d
+			y: 10.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.5d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.5d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ftbmisc/deployer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/chute.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 37.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 37.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 38.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 38.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 35.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 36.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 35.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 36.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 34.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/ftbmisc/belt1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 37.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 31.5d
+			y: 9.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["48E63D20C44DB84C"]
+			description: [
+				"在开始你的机械化进程之前，我想你需要一个扳手。"
+				""
+				"&b扳手&r可以帮助你调整机器的形态、方向，和使用Shift+右键快速拆卸机器。"
+				""
+				"&6工程师护目镜&r可以放在饰品栏里的头饰一栏，帮助你看见各种机器的转速以及应力消耗。"
+			]
+			id: "403CAA6893B86BBF"
+			rewards: [{
+				id: "11B7A387D806D770"
+				item: "create:goggles"
+				type: "item"
+			}]
+			subtitle: "机械师的第三只手"
+			tasks: [{
+				id: "3590007F3CB3D9AE"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18C617727812B257"]
+			description: [
+				"如果你不想使用水力，也可以使用风力来产生动能。"
+				""
+				""
+				"放置风车轴承后，在上面放置一些&b羊毛&r或者&b风帆&r，然后&a用强力胶粘起来&r，可以搭建风车。"
+				"风车的好处是产生的旋转速度和应力量更大，但缺点是搭建较为麻烦。"
+			]
+			id: "16A019D423E8420E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16D004F1496A90EB"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "30F237B897AB5D7D"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			subtitle: "清洁能源"
+			tasks: [
+				{
+					id: "2B121285CAE8AAB4"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "32052BE026D0DE0A"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "5674B72C3CABACC4"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["403CAA6893B86BBF"]
+			description: ["用速度表和应力表替换一根传动杆，就可以监测到动力系统中的&b转速和应力&r。记得配合工程师护目镜使用。"]
+			id: "0909729352DADBD7"
+			rewards: [
+				{
+					count: 16
+					id: "42A5191F7A51C7C5"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2AF9D357AE4482C2"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00849696BE7D032A"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "检测动力情况"
+			tasks: [
+				{
+					id: "0D9BABD45D916DB3"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "7452400D3FC5FCAC"
+					item: "create:speedometer"
+					type: "item"
+				}
+			]
+			title: "速度表和应力表"
+			x: -19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["403CAA6893B86BBF"]
+			description: [
+				"机械动力内置了一个非常好用的&b蓝图系统&r。"
+				""
+				"使用蓝图桌，可以将schematics文件夹内的蓝图文件录入空白蓝图中。在世界中选定位置之后，用&b蓝图大炮&r可以自动打印蓝图。"
+				""
+				"蓝图大炮会自动提取&b紧挨着的容器&r中的物品，也支持其他mod的箱子或背包。"
+				""
+				"使用蓝图与笔可以创建自己的蓝图，蓝图文件在schematics文件夹内。"
+				""
+				"{@pagebreak}"
+				"在这个文件夹中你可以找到整合包提前为你预制的各种&b机器&r、&b多方块结构&r的蓝图，可以直接打印出来，不用手动搭建多方块结构了。"
+			]
+			id: "0B14527D8306DBBC"
+			rewards: [{
+				id: "68D8E6C3351F4483"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			subtitle: "预制机器"
+			tasks: [
+				{
+					id: "2E8F43C00E2DECF6"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "41EAADA7068CF3F0"
+					item: "create:schematicannon"
+					type: "item"
+				}
+			]
+			title: "蓝图系统"
+			x: -19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10D38886E3A85E56"]
+			description: [
+				"搅拌器和工作盆的组合可以&b自动合成&r某些配方，包括无序合成以及一些特殊配方。"
+				""
+				"某些配方可能需要&c加热&r，将烈焰人燃烧室放在工作盆下面，然后给烈焰人喂食可燃物即可。"
+			]
+			id: "7B9B990FB4981431"
+			rewards: [
+				{
+					id: "7DE237CEB987E3E4"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7A890E884E6C669B"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0086748BE500FB8E"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["403CAA6893B86BBF"]
+			description: [
+				"铜机壳的耐热性和密封性让它常常被用来制作&b流体元件和锅炉&r。"
+				""
+				"用铜锭右键去皮原木就可以得到铜机壳。"
+			]
+			id: "39E838C9DB298B0D"
+			rewards: [{
+				count: 32
+				id: "234F0A19A66CF43F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			subtitle: "铜器时代"
+			tasks: [{
+				id: "464778CCF73C9E2E"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "新的金属"
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C78D48526D97F20"]
+			description: [
+				"&b分液池&r可以把容器（比如桶，瓶子等）中的流体倒进管道系统，你只需要把物品丢到分液池上即可，物品分液完成后会自动滚过分液池。"
+				""
+				"&6注液器&r可以把流体注入容器中，在注液器下方第二格放置置物台或传送带，然后在上面放置物品，就会自动完成注液。"
+				""
+				""
+				"值得注意的是，即使不能分液的物品也能滚过分液池。也许我们可以运用这个特性，在目前做不出传送带的情况下，&6用分液池运输物品&r...?"
+			]
+			id: "10D38886E3A85E56"
+			rewards: [
+				{
+					count: 2
+					id: "21CF84C0A07ABF02"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CA8005188DE0777"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "784A1177FFD5F599"
+					item: "create:builders_tea"
+					type: "item"
+				}
+				{
+					id: "01B2067FB2C17E2E"
+					item: "create:whisk"
+					type: "item"
+				}
+			]
+			subtitle: "分液和注液"
+			tasks: [
+				{
+					id: "1F8572C9D6682E9F"
+					item: "create:item_drain"
+					type: "item"
+				}
+				{
+					id: "5AC6554B1A214BE3"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			title: "流体处理"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"39E838C9DB298B0D"
+				"0F2308B198CE34BF"
+			]
+			description: ["使用康铜板和铜锭可以在工程师工作台手搓出来一些流体管道。"]
+			id: "3C78D48526D97F20"
+			rewards: [
+				{
+					count: 64
+					id: "2BA916BAE6549280"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4774F2A501184B74"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "别再搬运桶了"
+			tasks: [{
+				count: 4L
+				id: "605C1C9E94D57921"
+				item: { Count: 4, id: "create:fluid_pipe" }
+				type: "item"
+			}]
+			title: "流体管道"
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&6康铜&r是一种铜镍合金，具有优良的热力性能。"
+				""
+				"你可以在合金窑中合成康铜，并用工程师锤将它砸成板。"
+			]
+			id: "0F2308B198CE34BF"
+			rewards: [
+				{
+					count: 4
+					id: "49D8A9F0BE91D7A9"
+					item: "vintageimprovements:constantan_sheet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76257027AF95A689"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "耐热金属"
+			tasks: [
+				{
+					id: "3BDF704A49A2860C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/constantan"
+						}
+					}
+					title: "Any #forge:ingots/constantan"
+					type: "item"
+				}
+				{
+					id: "633715961B66E31E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/constantan"
+						}
+					}
+					title: "Any #forge:plates/constantan"
+					type: "item"
+				}
+				{
+					id: "685D789269DC786B"
+					type: "checkmark"
+				}
+			]
+			title: "康铜锭"
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10D38886E3A85E56"]
+			description: ["置物台上的物品以物品堆的形式放置，可以被例如辊压机、注液器的元件加工。"]
+			id: "0801E275874E2B4B"
+			tasks: [{
+				id: "10628529DD50924E"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"10D38886E3A85E56"
+				"7B9B990FB4981431"
+			]
+			description: [
+				"一个可以放入原材料进行加工的盆。"
+				""
+				"在工作盆的上方第二格放置&6搅拌器、辊压机&r等作业元件，就可以自动开始工作。"
+				""
+				"工作盆不仅可以承装物品，还可以盛1B的&b流体&r，并且不同种类的流体可以同时共存于工作盆中。"
+			]
+			id: "52040BDE7D5EC4B9"
+			rewards: [
+				{
+					count: 4
+					id: "51C0D8824C7EFA05"
+					item: "createdeco:blue_andesite_lamp"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58D1F226662EE2C1"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "顾名思义"
+			tasks: [{
+				id: "700AD06A32FAB556"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B9B990FB4981431"]
+			description: [
+				"辊压机可以在置物台、传送带上把金属锭压成片，或者在工作盆中进行压块塑形。"
+				""
+				"当然你也可以用它处理其他东西，比如把甘蔗压成纸之类的"
+			]
+			id: "4A882FF4D961D16A"
+			subtitle: "千钧之力"
+			tasks: [{
+				id: "72F90B27D96DFABB"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"463784F6414B8C51"
+				"4A882FF4D961D16A"
+			]
+			description: [
+				"终于我们得到了这种性能优秀的粘合剂。有机凝胶比史莱姆球更强，可以把方块粘合起来作为一个整体运动。利用这种性质，可以制作风车轴承和动力轴承等&6动态结构元件&r。"
+				""
+				"使用面团或史莱姆球加植物精华压制可以得到有机凝胶，如果使用史莱姆球可以使植物精华的消耗量减半，而且无需加热。"
+			]
+			id: "18C617727812B257"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "396E99E1F46B6E38"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "364FE008E201A5E7"
+					item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "08A5AAF7244E3C6A"
+					item: "reliquary:fertile_lily_pad"
+					type: "item"
+				}
+				{
+					id: "1FDF8BBB48800E74"
+					item: "pamhc2foodextended:szechuaneggplantitem"
+					type: "item"
+				}
+				{
+					id: "65CB4A2AB4AA73BC"
+					item: "pamhc2foodextended:cookoutmealitem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5754F56092F736D1"
+					table_id: 5150330107864044364L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "有粘性的不止史莱姆"
+			tasks: [{
+				count: 4L
+				id: "429E31326A984F86"
+				item: {
+					Count: 4b
+					id: "btb:organic_gels"
+				}
+				type: "item"
+			}]
+			title: "有机凝胶"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10D38886E3A85E56"]
+			description: [
+				"将瓶装阳光中的灵气倒出来就得到了&a液态灵气&r，这种浅绿色的液体中蕴含着庞大的自然力量。"
+				""
+				"虽然理论上说，灵气在标准状况下并不能稳定地以液态存在，会迅速挥发到空气中，但实际应用中并不会明显的挥发。"
+				""
+				"也许味道不错。"
+				""
+				"{@pagebreak}"
+				"如果你发现分液池里的液体没办法直接用桶盛出，你可以用动力泵将液体导入工作盆中。"
+			]
+			id: "7E19176F22574A8F"
+			rewards: [
+				{
+					count: 32
+					id: "31982E2A44AD09E7"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7E362778EA3D5BEC"
+					item: "naturesaura:bottle_two_the_rebottling"
+					type: "item"
+				}
+			]
+			subtitle: "挥发性物质"
+			tasks: [{
+				id: "7B1DA19586BABAD4"
+				item: "btb:liquid_aura_bucket"
+				type: "item"
+			}]
+			title: "液态灵气"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52040BDE7D5EC4B9"]
+			description: [
+				"&a植物精华&r是一种用途广泛的原料。"
+				""
+				"你可以使用任意的种子加上液态灵气制作植物精华。"
+			]
+			id: "463784F6414B8C51"
+			rewards: [{
+				count: 4
+				id: "03DF9A8AF05BF804"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D7063262A37DB5A"
+				item: "btb:plant_essences_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"18C617727812B257"
+				"3660AB6A595E99D8"
+			]
+			description: [
+				"传送带可以&6运送物品&r，物品在传送带上以物品堆的形式存在，对性能消耗极小。"
+				""
+				"另外，传送带还可以像置物台一样，与加工元件配合&b处理上面的物品&r。这个特性使你可以搭建一条流水线来加工物品。"
+				""
+				"在传送带末端放漏斗，物品会被自动输入/输出，此时输入输出将不能被扳手切换，而是取决于传送带转动方向。"
+			]
+			id: "3E80B83F5ADDA9D7"
+			rewards: [
+				{
+					count: 4
+					id: "5253E478F7B5B665"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2441EED8879AFB84"
+					item: "immersiveengineering:wire_electrum"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44D6B058C4A62FF6"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "55E9BA3CBB3C4612"
+					item: "immersiveengineering:lantern"
+					type: "item"
+				}
+			]
+			subtitle: "海带科技已经过时了"
+			tasks: [{
+				id: "489AACA623917E31"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10D38886E3A85E56"]
+			description: [
+				"&b树汁提取器&r能从树中提取多种资源。"
+				""
+				"树汁提取器能提取出树汁的条件："
+				"1.放在橡胶树或丛林木的&6树根处&r"
+				"2.树底下的方块一定要是草，石头或泥土"
+				"3.树干上有自然生成的树叶"
+				"4.上方没有其他树汁提取器"
+				""
+				"总之就是放在一棵&6自然生长的树的树根处&r即可。四个方向可以摆放四个提取器，但效率会相应降低。"
+				"你还可以在树汁提取器内放入骨粉或植育一号化肥提高产量。"
+			]
+			id: "053E269E8C31DED8"
+			rewards: [
+				{
+					id: "52E2D5B81C92126B"
+					item: "thermal:latex_bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4AEF865495ABAA17"
+					item: "thermal:rubberwood_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "不止可以提取树汁"
+			tasks: [
+				{
+					id: "12E814816964861E"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+				{
+					id: "0C7B148C17C4FB7B"
+					item: "thermal:latex_bucket"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["053E269E8C31DED8"]
+			description: ["直接将植物胶乳压制即可得到固态的橡胶"]
+			id: "528545634261D29A"
+			rewards: [
+				{
+					count: 4
+					id: "506ACEC4FE9FC2A7"
+					item: "thermal:sulfur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "581453219DF99DD8"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					id: "3790E376901FA351"
+					item: "pamhc2foodcore:chocolatebaritem"
+					type: "item"
+				}
+			]
+			subtitle: "橡胶工业"
+			tasks: [{
+				count: 16L
+				id: "5753E39CEED45298"
+				item: { Count: 16, id: "thermal:rubber" }
+				type: "item"
+			}]
+			title: "橡胶"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528545634261D29A"]
+			description: [
+				"生橡胶不易成型，容易磨损，所以将生橡胶硫化后即可得到&e硫化橡胶&r。这是一种性能优良的高分子材料。"
+				""
+				"硫化橡胶可以制作很多工业品，比如&6传送带&r。"
+			]
+			id: "3660AB6A595E99D8"
+			rewards: [
+				{
+					id: "4534A6BCE2382F3E"
+					item: "btb:organic_gels"
+					type: "item"
+				}
+				{
+					id: "360F57B4382FA1ED"
+					item: "enderio:fluid_tank"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A656549CD1AAFD3"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "Thanks To Charles Goodyear"
+			tasks: [{
+				count: 16L
+				id: "615F2F2322FA0FCB"
+				item: { Count: 16, id: "thermal:cured_rubber" }
+				type: "item"
+			}]
+			title: "硫化橡胶"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CFC5C147453783E"]
+			description: [
+				"通入动力后，动力轴承可以把普通的方块变为&b动态结构&r。"
+				""
+				"动态结构的应用非常广泛，而且可以达到很多你想象不到的效果。比如，在动态结构上放&b动力锯&r，就可以&2自动砍树&r，转速越快砍树速度越快，根据这一原理可以很简单地做出一个树场。"
+				""
+				"你可以在蓝图桌上找到整合包预制的树场蓝图，作为一个参考。"
+			]
+			id: "5FF08368F35EBB25"
+			rewards: [{
+				count: 3
+				id: "56023A00DCD38F22"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			subtitle: "伟大，无需多言"
+			tasks: [{
+				id: "3A8D30C9EDC1955A"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "动态结构"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16A019D423E8420E"]
+			description: [
+				"使用有机凝胶可以制作&a强力胶&r。"
+				""
+				"这种胶的粘性比史莱姆球更强，可以把方块粘合在一起，作为&b动态结构&r的组成部分。"
+			]
+			id: "4CFC5C147453783E"
+			rewards: [
+				{
+					count: 16
+					id: "5D3EE5E51DD2C598"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04DD4ACA7CF1DDB3"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "超超超超超强力胶"
+			tasks: [{
+				id: "3093A178F4B23C1A"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FF08368F35EBB25"]
+			description: [
+				"在移动中的动态结构上输入输出物品可能会很困难，但是&b移动式存储接口&r做到了这一点。"
+				""
+				"将一对移动式存储接口面对面放置，中间间隔一格，其中一个用强力胶粘在动态结构上，就可以&b从动态结构输入或向动态结构输出物品&r。"
+				""
+				"长按W打开思索，可以看到更详细的动画教程。"
+			]
+			id: "270EF8C917A01AB3"
+			rewards: [
+				{
+					count: 2
+					id: "0F14DD20ED70FF61"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "32D52ECDF54335EE"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			subtitle: "Dynamic  IO"
+			tasks: [{
+				count: 2L
+				id: "37087C540C57D6D6"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			title: "移动式存储接口"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0801E275874E2B4B"]
+			description: [
+				"使用溜槽可以在&b垂直方向运输物品&r。如果溜槽下方没有容器，物品会直接以掉落物的形式掉在地上。"
+				""
+				"沉浸工程的金属滑道也有类似的作用，不过它只能向容器输入物品，不能输出。"
+			]
+			id: "624ECD499F28D997"
+			rewards: [{
+				count: 10
+				id: "2DEDBEB1BF8986E9"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "垂直运输"
+			tasks: [{
+				id: "247E2083A3ADA40D"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["624ECD499F28D997"]
+			description: [
+				"安山漏斗可以从容器中&b提取物品&r，也可以&b输入物品&r，但是一次只能输出一个。"
+				""
+				"使用扳手右键可以切换漏斗的输入/输出模式。"
+				""
+				"后续你还可以制作更高级的&6黄铜漏斗&r，支持过滤器，支持红石信号控制，并且一次可以输出一组。"
+			]
+			id: "05A236846E156B0E"
+			rewards: [
+				{
+					id: "05E967DE83E04D0E"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57B0CCEE2F424974"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3067F1EC64EF0281"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3E80B83F5ADDA9D7"]
+			description: ["橡胶工业为我们带来了一些新零件。"]
+			id: "1EAB84D3995FCD38"
+			rewards: [{
+				count: 4
+				id: "6800E936B32302D2"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			subtitle: "电子厂流水线"
+			tasks: [{
+				id: "488CC21A4D8322E0"
+				item: "immersiveengineering:component_electronic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EAB84D3995FCD38"]
+			description: [
+				"机械手是一种功能非常强大的元件。它可以&b使用物品，破坏方块，攻击生物，还能在流水线上参与加工。&r"
+				""
+				"有了机械手以后，我们就可以建设一条新的流水线，按顺序对某种底物进行一系列的加工，得到一些更精密或更复杂的物品。这种流水线被称为&b序列组装&r。"
+			]
+			id: "4F09B93784BC8082"
+			rewards: [
+				{
+					count: 4
+					id: "6189E0896AB9DF6B"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37B35E0015DE3BF7"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7283C4075165C905"
+					table_id: 1550369265899847403L
+					type: "choice"
+				}
+			]
+			subtitle: "你能干的它都能干"
+			tasks: [{
+				id: "09F9C0661055586E"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EAB84D3995FCD38"]
+			description: [
+				"制作出电子元件后你就可以制作&6黄铜漏斗&r和&6智能溜槽&r了。"
+				""
+				"这两种设备分别是安山漏斗和溜槽的升级版，支持红石控制和过滤器，而且传输速率达到了64个每次。"
+			]
+			id: "6C00E66383E0437C"
+			rewards: [
+				{
+					id: "7E0E87B6C87CF2F7"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DAE1DEEB48A0D7D"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "更高级的物流"
+			tasks: [
+				{
+					id: "24FAF053B8034CDD"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "5F8B7D12A71DAD41"
+					item: "create:smart_chute"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F09B93784BC8082"]
+			description: [
+				"&6曲柄连杆&r是一种机械结构，可以用在蒸汽引擎上，把活塞的水平运动变成旋转力。"
+				""
+				"要制作曲柄连杆，我们需要进行&b序列组装&r，你可以在一条传送带上放四个机械手，并给机械手输入&b齿轮&r和&b传动杆&r，物品直接通过传送带即可完成组装。"
+				""
+				"由于序列组装有多轮循环，所以也可以考虑让物品在两个机械手下面多次经过。用四条传送带可以轻松地设计出来一个&5循环结构&r。"
+				""
+				""
+				"{@pagebreak}"
+				"序列组装不仅可以在传送带上完成，置物台上也可以完成。如果你制造机械手的数量有限，也可以考虑手动更换机械手中的物品来完成组装。"
+			]
+			id: "4A04F519B681E83D"
+			rewards: [
+				{
+					id: "4B683476E2B61684"
+					item: "farmersdelight:roasted_mutton_chops"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "483845CA92C5322B"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "175A30B6D2113D4D"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			subtitle: "第一个序列组装"
+			tasks: [{
+				id: "7B667D98C17E7884"
+				item: "btb:crank_train"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A04F519B681E83D"]
+			description: [
+				"制作出蒸汽引擎后，就可以搭建&6锅炉&r了。"
+				""
+				"水车和风车产生的应力显然已经不能满足需要了，锅炉是一种通过燃烧产生大量应力的设备。"
+				""
+				""
+				"{@pagebreak}"
+				"要搭建一台锅炉，你需要&b在储罐上放置蒸汽引擎&r，然后向锅炉中&1持续地通入水&r，并用烈焰人燃烧室在锅炉下方&4加热&r。"
+				""
+				"如果你不想手动放燃料，可以用&b机械手&r或&b动力臂&r自动添加燃料。"
+				""
+				"烈焰人燃烧室需要持续提供燃料，否则仅会产出很少动力；或者你也可以使用营火等被动热源，但同样也仅仅会产出很少动力。"
+			]
+			id: "27F559FE1D718F59"
+			rewards: [
+				{
+					count: 18
+					id: "136FF254BE779949"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3080120BB134F092"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71DBF7D600BEA235"
+					table_id: 5150330107864044364L
+					type: "choice"
+				}
+			]
+			subtitle: "蒸汽时代"
+			tasks: [
+				{
+					id: "7941613D2B31D05E"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1BD3B83BE881EF97"
+					item: { Count: 9, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27F559FE1D718F59"]
+			description: [
+				"水龙头是一种可用于运输等多种用途的装饰方块。把水龙头放在一个&b含水方块&r前，下面接锅炉的顶面，就可以为锅炉&b供水&r，并且不会消耗含水方块中的水。"
+				""
+				""
+				""
+				"{@pagebreak}"
+				""
+				"水龙头还有一些其他特性和用途："
+				""
+				"在水龙头后方两个方块中有存储方块时，右键点击水龙头打开会使它从存储方块中不断漏出物品。"
+				""
+				"把水龙头放在炼药锅、水源或含水方块前，打开它就会产生流水效果，流水颜色取决于背后液体的颜色。"
+				""
+				"可以用水龙头来将液体倒入或倒出罐子，同样也适用于其他盛装液体的容器（如炼药锅），流体传输速度为固定250mb/s，容器中流体小于250mb时不输出。"
+				""
+				"水龙头还可以与蜂巢和混凝土粉末等其他方块相互作用，可以产出蜂蜜（放置在蜂箱、蜂巢上并用罐收集），也可以把混凝土粉末放在流水的水龙头下变成混凝土，还可以在水龙头下放置海绵来销毁流体。"
+			]
+			id: "17CB544D9D68DE09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CABE03C38F998D7"
+				table_id: 8924054224415382308L
+				type: "random"
+			}]
+			subtitle: "供水神器"
+			tasks: [{
+				id: "51BA83C2B4D19F86"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4A04F519B681E83D"]
+			description: [
+				"&b轧机&r能把金属板轧制成对应的金属线，或将锭轧制成杆。"
+				""
+				"你可以在轧机上方手动输入物品，也可以在轧机侧面接漏斗自动输入输出。"
+			]
+			id: "1B0F0E18DC3CD4B8"
+			rewards: [{
+				count: 16
+				id: "216B91EA4767259F"
+				item: "vintageimprovements:nickel_sheet"
+				type: "item"
+			}]
+			subtitle: "开卷！"
+			tasks: [{
+				id: "4E0ECF0BD3F40008"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C00E66383E0437C"]
+			description: [
+				"你可能会遇到要将一条传送带上的物品输送到两条不同的传送带上的情况，黄铜隧道可以做到这一点，它提供了多种输出方式，例如轮询输出，均分等。"
+				""
+				"更详细的用法教学可以长按W打开思索。"
+			]
+			id: "0F4902A4EF6FD2D0"
+			rewards: [
+				{
+					count: 4
+					id: "24DB9B5FB96D8E74"
+					item: "createdeco:red_brass_lamp"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FE3362BBE9DA925"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AE6AEC64FE0A39F"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "分流"
+			tasks: [{
+				id: "476276140531B0D1"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["26914C762DFE37BC"]
+			hide_dependency_lines: true
+			id: "69BD22F5E58C451B"
+			tasks: [{
+				id: "775A0BF60EDBE31A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wires/electrum"
+					}
+				}
+				title: "Any #forge:wires/electrum"
+				type: "item"
+			}]
+			title: "琥珀金线"
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26914C762DFE37BC"]
+			description: [
+				"可以直接用水桶、红石、硫粉合成一桶红石酸，也可以在工作盆里混合加热得到。"
+				""
+				"当然，如果你不想进行这么繁琐的合成，也可以用毒害洞穴的特产：&a酸液&r代替"
+			]
+			hide_dependency_lines: true
+			id: "098BEA942934E776"
+			rewards: [
+				{
+					count: 16
+					id: "12AE110B69D55B4B"
+					item: "thermal:sulfur"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0DCE2BD1619472EE"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			subtitle: "强酸...还是弱酸？"
+			tasks: [
+				{
+					id: "2467E0EDA5C3C051"
+					item: "immersiveengineering:redstone_acid_bucket"
+					type: "item"
+				}
+				{
+					id: "5E5FDD1C6806B7B4"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26914C762DFE37BC"]
+			hide_dependency_lines: true
+			id: "1411A376BDADEC84"
+			tasks: [{
+				id: "1EB5E1D9F73B084B"
+				item: "vintageimprovements:nickel_wire"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26914C762DFE37BC"]
+			description: ["可以在加热的工作盆里搅拌融化玫瑰石英，也可以直接用8个红石1个石英混合加热得到。"]
+			hide_dependency_lines: true
+			id: "6C9AAE62C85B6E85"
+			rewards: [{
+				count: 4
+				id: "5904E5C6C7FB57F2"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E044685DD15CB21"
+				item: "btb:liquid_rose_quartz_bucket"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26914C762DFE37BC"]
+			hide_dependency_lines: true
+			id: "172AEA51538E9C0D"
+			tasks: [{
+				id: "1216470F97F01015"
+				item: "minecraft:glass_pane"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B0F0E18DC3CD4B8"]
+			description: ["电子管是一种比较精密的元件，首先需要安装琥珀金阴极并用酸液冲洗，然后安装镍质的阳极并灌入液态玫瑰石英，最后安装玻璃外壳，循环三次完成组装。"]
+			id: "26914C762DFE37BC"
+			tasks: [{
+				id: "39FF3C28CF2AB6D7"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			title: "序列组装：电子管"
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50EE83E183D2B54C"]
+			description: [
+				"液态的玫瑰石英可以使阴极和阳极之间产生电流，利用这种性质我们制造了电子管。"
+				""
+				"有些更高级的机器需要电子管的控制，例如&b动力合成器&r"
+			]
+			id: "793B68A32CEBE1A0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57D45CBEB7A48A81"
+					table_id: 1550369265899847403L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07E5C2074A9FEBB6"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					id: "4A015CDB6A07207E"
+					item: {
+						Count: 1b
+						id: "botania:mana_tablet"
+						tag: {
+							mana: 500000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B31BBF783F73246"
+					item: "thermal:netherite_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4A576E1093D28D58"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "345A6690287DCF42"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E6D446804D497A6"
+					table_id: 5150330107864044364L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "电子工业的结晶"
+			tasks: [{
+				id: "554E54B0D2FDCEA1"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26914C762DFE37BC"]
+			icon: "btb:incomplete_electron_tube"
+			id: "50EE83E183D2B54C"
+			tasks: [{
+				id: "2F2C12F447F541E0"
+				type: "checkmark"
+			}]
+			title: "循环3次"
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F2308B198CE34BF"]
+			description: [
+				"也许你早就不想用这些巨慢无比的熔炉了，还好我们有这个&5有史以来所有模组中最强大的熔炉&r：&6鼓风机加工&r。"
+				""
+				"鼓风机前面放上岩浆或燃烧着的烈焰人燃烧室，就可以用气流熔炼物品。不同于传统的熔炉，鼓风机既可以加工置物台或传送带上的物品堆，也可以加工掉落物形式的物品。这就意味着，&5鼓风机可以同时加工很多很多组掉落物&r，也就是说，&b鼓风机的理论效率上限是无限大的&r。"
+				""
+				"每组物品掉落物/物品堆中的物品数量越多，加工所需的时间就越长。但由于鼓风机是同时加工所有掉落物的，所以这使它在&b加工大量物品&r时尤其有优势。"
+				""
+				""
+				"{@pagebreak}"
+				"鼓风机加工每组物品的时间&b与鼓风机转速无关&r，更快的转速只会让鼓风机把物品吹的更远，但是与同时参与加工的鼓风机数量有关。"
+				""
+				"鼓风机一共有四个加工模式，分别是&4熔炼&r，&e烟熏&r，&b洗涤&r，&1缠魂&r。你可以在JEI中查看每种加工方式对应的配方。"
+			]
+			id: "083EAD534DD02E01"
+			rewards: [
+				{
+					count: 64
+					id: "303D2E8FE0E7949E"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CDEF6426DD20A6E"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "粒子加工"
+			tasks: [{
+				id: "7CB21A01B3478123"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["083EAD534DD02E01"]
+			description: [
+				"也许你在使用鼓风机的时候会感觉使用流体来改变加工类型很不方便，&b鼓风机触媒&r可以让你用方块形式做到这些。"
+				""
+				"再也不用担心流体会乱流了。"
+			]
+			id: "4A583C1789E60445"
+			rewards: [
+				{
+					id: "3AF8B35B340DE500"
+					item: "create_connected:fan_blasting_catalyst"
+					type: "item"
+				}
+				{
+					id: "4CF9A0C065FDE444"
+					item: "create_connected:fan_smoking_catalyst"
+					type: "item"
+				}
+				{
+					id: "725D4BD87FD4B2B8"
+					item: "create_connected:fan_splashing_catalyst"
+					type: "item"
+				}
+				{
+					id: "5ED95E6170752F4D"
+					item: "create_connected:fan_haunting_catalyst"
+					type: "item"
+				}
+			]
+			subtitle: "拒绝流体从我做起"
+			tasks: [{
+				id: "1B9EA9F1A4D2048A"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			title: "鼓风机触媒"
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["793B68A32CEBE1A0"]
+			description: [
+				"动力合成器可以用来&b自动合成&r物品，也可以合成一些只能使用动力合成器合成的配方。"
+				""
+				"要使用动力合成器，你需要用扳手右键合成器的前面板，&4使所有黑色箭头指示的合成通路汇聚到一个合成器上&r。"
+				""
+				"在前面板可以手动输入物品，也可以自动输入。用扳手右击合成器的后面和侧面可以使多个合成器&b链接成一个整体&r，此时这个整体共享一个输入，适合用在某个配方中含有大量同一物品的情况，如&6粉碎轮的合成&r。"
+				""
+				""
+				"{@pagebreak}"
+				"所有合成器都有物品后，合成就会开始。如果你需要在有空位的情况下开始合成，你可以通入一个&4红石信号&r来强制开始。或者，你也可以使用&6合成槽盖板&r盖住需要留空的合成器。"
+			]
+			id: "00C48444144D74E9"
+			rewards: [
+				{
+					count: 4
+					id: "5BE868E049297121"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "464575D41981AEFD"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "可以拼装成超大的合成器"
+			tasks: [{
+				id: "5AE924DE310751BB"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00C48444144D74E9"]
+			description: [
+				"更大，更快，更多应力！"
+				""
+				"粉碎轮是一种重型粉碎设备。它可以更快速地粉碎物品，粉碎轮拥有石磨的所有粉碎配方，并且有一些特殊配方只能用粉碎轮粉碎。"
+				""
+				"要使粉碎轮正常工作，需要让两个轮子接入&b相反方向&r的应力，最简单的摆法是两个十字齿轮箱加一根传动杆。粉碎轮不仅可以竖直放置，还可以水平放置。"
+				""
+				"一个小技巧是，两个粉碎轮放置成型后中间的方块会变成粉碎轮控制器，这个控制器可以用漏斗或任何方式输入输出物品，就像原版熔炉一样。"
+				""
+				"所以粉碎轮本质上是一个多方块熔炉...?"
+			]
+			id: "77B89FF72CBD5D39"
+			rewards: [{
+				count: 2
+				id: "724D9A25290C26AD"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			subtitle: "把石磨扔进垃圾桶吧"
+			tasks: [{
+				count: 2L
+				id: "601E96EAADB4C53E"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			title: "更高级的粉碎！"
+			x: 39.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "create:golden_sheet"
+			id: "35C6083D8AE5A782"
+			tasks: [
+				{
+					id: "4E7DA4E5BB6C6EFA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/gold"
+						}
+					}
+					title: "Any #forge:plates/gold"
+					type: "item"
+				}
+				{
+					id: "7752B0C9F10A2715"
+					type: "checkmark"
+				}
+			]
+			title: "序列组装：精密构件"
+			x: 28.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["10EC918EC5C718FD"]
+			description: ["有了精密构件之后就可以制作如动力臂，转速调节器之类的精密机器了。"]
+			id: "1E2209B15ACFBC14"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02B7587CF8F0627D"
+					table_id: 5150330107864044364L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "409544F79BA13624"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "非常精密的构件"
+			tasks: [{
+				id: "4410B5BADE633DEC"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["35C6083D8AE5A782"]
+			icon: {
+				Count: 1
+				id: "create:incomplete_precision_mechanism"
+				tag: {
+					SequencedAssembly: {
+						Progress: 0.2f
+						Step: 1
+						id: "create:precision_mechanism_sequenced_assembly"
+					}
+				}
+			}
+			id: "10EC918EC5C718FD"
+			tasks: [{
+				id: "0099FC9E78E84C9F"
+				type: "checkmark"
+			}]
+			title: "循环1次"
+			x: 33.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["35C6083D8AE5A782"]
+			hide_dependency_lines: true
+			id: "5686B98B8123287C"
+			subtitle: "坚硬材料"
+			tasks: [{
+				id: "13B2557BDF669B98"
+				item: "thermal:nickel_gear"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"793B68A32CEBE1A0"
+				"35C6083D8AE5A782"
+			]
+			hide_dependency_lines: true
+			id: "3187011264CB61A9"
+			tasks: [{
+				id: "551AB7138F7E556D"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35C6083D8AE5A782"]
+			hide_dependency_lines: true
+			id: "3D13BEE92257688C"
+			tasks: [{
+				id: "19326F622C64EC85"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35C6083D8AE5A782"]
+			hide_dependency_lines: true
+			id: "540B79B888864F80"
+			tasks: [{
+				id: "4390507124618BF5"
+				item: "immersiveengineering:nugget_silver"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E2209B15ACFBC14"]
+			description: [
+				"动力臂可以自动拿取和放置物品。"
+				""
+				"在放下一个动力臂之前，你需要先手持动力臂右键输入位置和输出位置，输入为&1蓝色&r输出为&e黄色&r，然后放下动力臂，动力臂就会按照你设定好的输入输出存取物品。"
+			]
+			id: "057B22F763DC9CD9"
+			rewards: [{
+				count: 64
+				id: "3E85007DCC37A7B1"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "终极自动化"
+			tasks: [{
+				id: "42FC19B69600B92C"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 40.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1E2209B15ACFBC14"]
+			description: ["转速控制器可以&b任意调整转速和方向&r，再也不需要小齿轮套大齿轮了。"]
+			id: "3774211A78FEE2E4"
+			rewards: [{
+				count: 64
+				id: "1E7C0CB32E1E3242"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "可以替代99%的大齿轮"
+			tasks: [{
+				id: "52F62C07845B7730"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 42.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"00C48444144D74E9"
+				"1E2209B15ACFBC14"
+			]
+			description: [
+				"机械晶体是一块由多种精密材料组装成的性能优秀的高精度材料，在重型机械、高级机器上有着广泛的应用。"
+				""
+				"甚至，在&5魔法领域&r也有很多用途。"
+				""
+				"制作出机械晶体后，我们就能制作更高级的机器，之前一些比较复杂的配方（如晶体管，精密构件）也会逐渐解锁&b更简单的制作方式&r。"
+			]
+			id: "6BC1B6339FE8E200"
+			rewards: [
+				{
+					count: 4
+					id: "6557568C2DC9A840"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+				{
+					id: "0A0B61DF6CF84BDC"
+					item: "thermal:netherite_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58AE266AF82F5E25"
+					table_id: 1550369265899847403L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FBA74480FB4C19F"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "工业皇冠上的明珠"
+			tasks: [{
+				id: "63598765B3906F57"
+				item: "btb:machine_crystal"
+				type: "item"
+			}]
+			x: 44.03333333333333d
+			y: 5.554761904761904d
+		}
+		{
+			dependencies: ["5FF08368F35EBB25"]
+			description: [
+				"&b动力锯&r是一种多功能设备。它的功能有："
+				""
+				"1.加工物品，例如在序列组装中进行切割步骤。"
+				"2.自动切石机，记得在配方栏位上放上你需要得到的物品，否则它会按顺序输出每个可能切出来的物品。"
+				"3.自动砍树，而且自带连锁功能，你可以把它放在动态结构上。"
+			]
+			id: "1D41ECC353A8FB64"
+			subtitle: "小心伤人"
+			tasks: [{
+				id: "22B24AEE782C4716"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FF08368F35EBB25"]
+			description: ["动力钻头可以用来自动&b破坏方块&r，输入的转速越高，或者所在的动态结构的线速度越大，破坏效率越快。"]
+			id: "18FC4BB3D00C8025"
+			tasks: [{
+				id: "0867E093CE5DC6E2"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FF08368F35EBB25"]
+			description: [
+				"收割机放在动态结构上后会&b自动收获农作物并补种&r。"
+				""
+				"本质上是重置作物生长状态。"
+			]
+			id: "416717C234297C4F"
+			subtitle: "农业自动化"
+			tasks: [{
+				id: "35BDCD382CED697C"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5FF08368F35EBB25"]
+			description: [
+				"动力犁可以用来自动铲除地上的一些轻薄物品，如草，铁轨，红石线等。"
+				""
+				"也可以用来自动耕地。"
+			]
+			id: "61CDBF99A8AC8266"
+			tasks: [{
+				id: "661D1C326202EC6A"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5FF08368F35EBB25"]
+			description: ["动力压路机可以自动放置方块，并清理前方道路上的方块。"]
+			id: "707E6FA828A06732"
+			subtitle: "百吨王"
+			tasks: [{
+				id: "53697D9C1CB15B0D"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6BC1B6339FE8E200"]
+			id: "369087E759F7FAFE"
+			tasks: [{
+				id: "4E8A2A55C0D1C61E"
+				title: "解锁新章节（1/2）"
+				type: "checkmark"
+			}]
+			title: "解锁新章节"
+			x: 48.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["77B89FF72CBD5D39"]
+			description: [
+				"随着粉碎轮的制作，我们解锁了一些更便利更强大的配方。"
+				""
+				"比如，你现在可以直接&6粉碎烈焰人燃烧室&r来得到烈焰棒并回收一些铁粉。用机械手拿着空的烈焰人燃烧室右键烈焰人刷怪笼可以捕捉烈焰人，据此可以很方便地做出一个烈焰棒自动化。"
+				""
+				"太残忍了，你真的要这么做吗...?"
+			]
+			id: "5E0D45C1D2A7AABB"
+			rewards: [
+				{
+					count: 10
+					id: "52FDCFE7500A1924"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DD37040262C0DE6"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "粉碎烈焰人"
+			tasks: [
+				{
+					id: "64BDF719D2D08F78"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "314B8CCE5EF6A311"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "新的生产烈焰棒的方式"
+			x: 39.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["098BEA942934E776"]
+			description: ["更多探险内容，请看“&6支线章节-迈向深渊&r”。"]
+			id: "19573C42ACE4C03B"
+			tasks: [{
+				id: "1A25894A7BEE8EE5"
+				title: "解锁新章节"
+				type: "checkmark"
+			}]
+			title: "新章节引导"
+			x: 23.0d
+			y: -4.0d
+		}
+		{
+			id: "57B4E9654EF649CD"
+			subtitle: "大硬盘恢复术"
+			tasks: [{
+				id: "2687AAA911054E4E"
+				item: "btb:damaged_storage_cell"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+	]
+}

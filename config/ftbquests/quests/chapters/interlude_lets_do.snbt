@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "interlude_lets_do"
+	group: "76C8AA65A16308EB"
+	icon: "farmersdelight:roast_chicken_block"
+	id: "77029E3A856FF74E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["获得成就：你为什么会合成这个？？？"]
+			id: "2A40663FF7C36EC6"
+			invisible: true
+			rewards: [
+				{
+					id: "050E903F0A1BEE0E"
+					item: {
+						Count: 1
+						id: "minecraft:golden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32EF02D1F87A3429"
+					item: {
+						Count: 1
+						id: "minecraft:golden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3014B594B0D42FCC"
+					item: {
+						Count: 1
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "385810D88CFC108D"
+					item: {
+						Count: 1
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A76BEC48AD20C94"
+					item: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "092334F147909915"
+					item: {
+						Count: 1
+						id: "farmersdelight:golden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "皇帝用的金锄头"
+			tasks: [{
+				id: "2FA3072A78D17318"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "你为什么会合成这个？"
+			x: 47.0d
+			y: -8.5d
+		}
+		{
+			description: ["获得成就：终极奉献！"]
+			id: "3E555F124257FEC7"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "6F27AA00679F60FE"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			subtitle: "终极奉献！"
+			tasks: [{
+				id: "78CCDC83B791E3C8"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 47.0d
+			y: -10.0d
+		}
+		{
+			description: [
+				"获得成就：烂番茄"
+				""
+				"也许可以扔出去砸人？"
+			]
+			id: "0229657A501E0D41"
+			invisible: true
+			rewards: [
+				{
+					count: 16
+					id: "453D04CA34513B15"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "759596E9711A58A4"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "151939FB668C94C9"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6809F1CE1A623D78"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+			]
+			subtitle: "ROTTEN TOMATOES"
+			tasks: [{
+				id: "00EA007CA067876F"
+				item: "farmersdelight:rotten_tomato"
+				type: "item"
+			}]
+			x: 47.0d
+			y: -7.0d
+		}
+	]
+	title: "间章: 先吃饭吧"
+}

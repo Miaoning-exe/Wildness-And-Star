@@ -1,0 +1,903 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter1"
+	group: ""
+	icon: "btb:nature_crystal"
+	id: "164D55585A48F4C1"
+	images: [
+		{
+			height: 2.0d
+			image: "ftbquests:textures/pictures/millstone_side.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			height: 2.5d
+			image: "immersiveengineering:block/multiblocks/alloy_smelter_on"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 2.5d
+			image: "immersiveengineering:block/multiblocks/coke_oven_on"
+			rotation: 0.0d
+			width: 2.5d
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			height: 2.5d
+			image: "supplementaries:textures/map_marker/nether_portal.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			height: 2.5d
+			image: "immersiveengineering:block/multiblocks/blast_furnace_on"
+			rotation: 0.0d
+			width: 2.5d
+			x: 16.5d
+			y: 6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"万物的起源还是从砍倒第一棵树开始。"
+				""
+				"虽然你不知道下一步将去往何方，但渐渐西沉的太阳和远处怪物的低吼声无时无刻不在提醒着你，现在的首要任务是尽快发展起来。"
+			]
+			id: "0D59EA9D2F44BFA4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08F534428EF2DB00"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					id: "6ADD4B9E612C4694"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "用拳头殴打一棵树直到它爆出木头"
+			tasks: [{
+				id: "6443D1AB2447F879"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "万物起源"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D59EA9D2F44BFA4"]
+			description: ["使用四块木板合成你的第一个工作台"]
+			id: "6948BFAD6A23BE6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "520BE4FA54889236"
+				table_id: 8924054224415382308L
+				type: "random"
+			}]
+			subtitle: "放心，本配方并没有魔改"
+			tasks: [{
+				id: "2994C6603BD41E77"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "这是？工作台！"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6948BFAD6A23BE6C"]
+			description: [
+				"无论如何，先采矿吧。制作一把木镐。"
+				""
+				"整合包中添加了&b动态光源&r，所以你可以把火把放在副手来照明。"
+			]
+			id: "3BF3B1A601E04EF8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22329009CF60A840"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "04E0E5197EDC247C"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1225B65556FC6429"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			subtitle: "耐久只有3的木镐"
+			tasks: [{
+				id: "26D04493529DB1AF"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "采矿时间到！"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28FAF26846118EBD"]
+			description: ["在随处可见的水域中找到一些粘土，采集粘土可以掉落&b黏土球&r，在熔炉中烧制黏土球可以得到红砖"]
+			id: "6CF4AB5556F9EA66"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F5D24AAECCA411C"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "01E6A2274CBCAE50"
+					item: "minecraft:brick"
+					type: "item"
+				}
+			]
+			subtitle: "为什么需要这东西？"
+			tasks: [{
+				count: 8L
+				id: "15B57B4BA4EB9C92"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			title: "烧制红砖"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3BF3B1A601E04EF8"]
+			id: "28FAF26846118EBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "080C09F25D9976C9"
+				table_id: 8924054224415382308L
+				type: "random"
+			}]
+			subtitle: "是时候升级一把更好的镐子了"
+			tasks: [{
+				id: "7ED6592282791D95"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "获得升级"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28FAF26846118EBD"]
+			description: [
+				"在地下你可能会发现以前从未见过的矿石，直觉告诉你，它们应该都是有用的。"
+				""
+				"当然，在阴暗的地底也隐藏着更多的危险。"
+			]
+			id: "254147BA37BEEBB4"
+			rewards: [
+				{
+					count: 10
+					id: "70C078019103583F"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "521CC07BE768FB08"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "深入地下！"
+			tasks: [
+				{
+					count: 10L
+					id: "6F91BA3EDC81AA59"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3FF39DBCEEBFEACC"
+					item: { Count: 10, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			title: "金属"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6CF4AB5556F9EA66"
+				"0E5A14CA3ECF8F5F"
+			]
+			description: [
+				"用两块红砖和两块砂岩可以合成出来一种基础的耐火材料。"
+				"用这种材料搭成一个&b2x2x2&r的结构并用&b工程师锤&r右击，可以得到一台简陋的&6合金窑&r。"
+				""
+				"虽然效率不高，但它能提供比一般的熔炉高的多的高温，足够把金属融合在一起。足够我们目前使用了。"
+			]
+			id: "4AF4F9AEBB1389C0"
+			shape: "gear"
+			size: 1.0d
+			subtitle: "土法合金"
+			tasks: [{
+				id: "3F1B8B4ED9B9E9D2"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			title: "生火烧窑！"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28FAF26846118EBD"]
+			description: [
+				"你可以用皮革、线和箱子合成背包，并放在饰品栏的“背饰”一栏来拓展你的储存空间。"
+				""
+				"然而，初始背包的栏位只有"
+			]
+			id: "6EEF653D1112442E"
+			rewards: [{
+				count: 4
+				id: "7C8CB4BAEE64BAB3"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "不可或缺"
+			tasks: [{
+				id: "4A78FF8071C0DF21"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["254147BA37BEEBB4"]
+			description: [
+				"制作一把工程师锤，然后用工程师锤&6右击多方块结构&r才能完成机器的构建。"
+				""
+				"当然，你也可以把它当成一把&b锻造锤&r用，可以让你在前期没有辊压机的情况下把金属压成板。&b"
+			]
+			id: "0E5A14CA3ECF8F5F"
+			rewards: [
+				{
+					count: 4
+					id: "03C0A2256AF20798"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+				{
+					id: "138CCBA9620F9CD0"
+					item: {
+						Count: 1
+						id: "immersiveengineering:wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "也可以当做锻造锤使用"
+			tasks: [{
+				id: "59E0D3B1CB898A89"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6948BFAD6A23BE6C"]
+			description: [
+				"仅仅将一根木棍和一个工作台绑在一起，你就得到了一个&b手持工作台&r。"
+				""
+				"没错，就是这么简单，就将你从满地乱放工作台中解救出来。"
+				""
+				"Mojang为什么还不更新这个？"
+			]
+			id: "02B8EEDD5E8990E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D8A5542F5A65113"
+				table_id: 8924054224415382308L
+				type: "random"
+			}]
+			subtitle: "随时随地的合成"
+			tasks: [{
+				id: "659A42D4FF19761F"
+				item: "extendedcrafting:handheld_table"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6EEF653D1112442E"]
+			description: ["制作升级可以给背包升级其他功能"]
+			id: "263537650332A669"
+			tasks: [{
+				id: "0342896ECAF37698"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["28FAF26846118EBD"]
+			description: [
+				"虽然现在的你一无所有，但是你还可以利用大自然的力量。"
+				""
+				"这个世界的空气、土壤和水源中存在着一种名为“&b灵气&r”的能量，利用这种能量可以帮助你合成物品，加速作物生长，以及一些神奇的功能。"
+				""
+				"或许......也能够帮我们从自然中获得&6动能&r和&6机械能&r？"
+				"{@pagebreak}"
+				"关于这部分的内容，可以查阅你手中的&a自然灵气之书&r，如果你没有的话，可以用纸、皮革和树苗合成一本。"
+			]
+			id: "4863CDAE61545E9C"
+			rewards: [
+				{
+					count: 4
+					id: "677A6996B5D8589A"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33FF9ED6E721EC25"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			subtitle: "拥抱大自然"
+			tasks: [{
+				id: "160CE61A5706DAE6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			title: "自然灵气"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54CA90564A4FEE38"]
+			description: ["但是，直接使用这种树叶是无法与空气中稀薄的灵气交互的。我们需要想个办法把它&b磨成粉&r。"]
+			id: "6E8FF2118A36F1A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B48092C2B065E07"
+				table_id: 8924054224415382308L
+				type: "random"
+			}]
+			subtitle: "黄金树叶"
+			tasks: [{
+				count: 10L
+				id: "23B8DF3090EC74C0"
+				item: { Count: 10, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"也许你箱子里堆满了大量的圆石或什么别的东西。抽屉可以储存大量的&b单一物品&r，非常适合前期的存储需要。"
+				""
+				"右键放入手上的物品，右键双击放入身上全部的这种物品，左键取出物品，Shift+左键取出一组。"
+			]
+			id: "191676C5E5680CD7"
+			rewards: [{
+				count: 16
+				id: "5BF056671045B71F"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			subtitle: "最好用的存储类mod之一"
+			tasks: [{
+				id: "03A8F253ECF9F2C5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "抽屉"
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["191676C5E5680CD7"]
+			description: [
+				"用抽屉钥匙右击抽屉可以&b固定该抽屉所存储的物品&r。也就是说，这个抽屉将只能存入/取出这种物品。"
+				"再次用抽屉钥匙右击可以解锁。"
+				""
+				"还有更多种类的钥匙，可以在jei搜索@drawer查看。"
+			]
+			id: "5ECC9E3E541F25BB"
+			rewards: [{
+				id: "068590CB9959A955"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			subtitle: "上锁"
+			tasks: [{
+				id: "1CED85ABCA498B35"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["191676C5E5680CD7"]
+			description: [
+				"可以通过抽屉控制器将半径50格范围内的抽屉&b连成一组&r，与其他抽屉进行交互，抽屉管理器作为这一组抽屉的总代理。"
+				""
+				"可以直接右击将物品放入被连接的抽屉，也可以通过原版漏斗、各种管道、传送带将物品放入对应位置或空位。"
+				""
+				""
+				"{@pagebreak}"
+				"一个抽屉组中可以有多个控制器，每个都能正常行使其功能。"
+				"（总之就是非常强大）"
+				"控制器传动方块可以把两个抽屉组连接起来。"
+			]
+			id: "4DE53F915EF9A469"
+			rewards: [{
+				id: "7EC01486235EB1FC"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			subtitle: "抽屉终端"
+			tasks: [{
+				id: "0843C850A5F967A3"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["191676C5E5680CD7"]
+			description: [
+				"使用抽屉容量升级可以提升抽屉的容量。"
+				"直接右键抽屉放入升级，Shift+右键打开GUI取出升级。"
+			]
+			id: "58C17C8E255AF2D2"
+			rewards: [{
+				id: "6E9154BA36DCBFAA"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			subtitle: "提升容量"
+			tasks: [{
+				id: "02F08838D4A430B6"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["191676C5E5680CD7"]
+			description: ["手持远程升级右击一个抽屉控制器，绑定到这个控制器。然后把远程升级塞入某个抽屉中，这个抽屉以及相邻的抽屉组会接入这个抽屉控制器的管理中，就像抽屉控制器贴着它们放置一样。"]
+			id: "3A634678894C32B4"
+			rewards: [{
+				count: 4
+				id: "134A7FA71B4F18B2"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "四次元传输科技"
+			tasks: [{
+				id: "1EEB06326783F190"
+				item: "storagedrawers:remote_group_upgrade"
+				type: "item"
+			}]
+			title: "远程升级"
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E61DB223D1F558A"]
+			description: [
+				"用钢板可以为烈焰人创造出一个舒适的工位，现在你只需要去地狱抓一只烈焰人就能让他没日没夜为你加热工作盆了。"
+				"哦对了，还需要喂烈焰人吃饭。任何可以燃烧的物品都能增加烈焰人的工作时间。"
+				""
+				"直接用空的烈焰人燃烧室右键烈焰人，或者烈焰人刷怪笼均可。"
+				""
+				""
+				"{@pagebreak}"
+				"（你真的忍心一直压榨这些烈焰人吗......)"
+			]
+			id: "62582090C4FCBD0B"
+			rewards: [
+				{
+					count: 32
+					id: "69EB633897549DB1"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "6069CF51C5F46049"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "烈焰人保护协会来电"
+			tasks: [
+				{
+					id: "75AA25B70EEE7D2F"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "65413DCD46CF27EB"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "烈焰人燃烧室"
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1903997AD806A4C4"
+				"62582090C4FCBD0B"
+			]
+			description: [
+				"现在，新的内容等待着你去探索。是研究齿轮与机械的碰撞，还是发现繁花中蕴藏的魔力？"
+				""
+				"第二章和第三章均已解锁，也许同时进行是一个较好的选择。"
+				""
+				"另外，右侧有一些新的内容，虽然不在任务主线，但是很有意思，也可以帮助你更便利地获取某些资源"
+			]
+			id: "48E63D20C44DB84C"
+			rewards: [
+				{
+					id: "318A0352759F9A40"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "4B4B63EBF65A5B5D"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B68733C17E2963F"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0A4F8A27CD920877"
+				type: "checkmark"
+			}]
+			title: "解锁新章节"
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48E63D20C44DB84C"]
+			description: [
+				"如你所见，本整合包添加了&b潘马斯&rmod。除了&6水槽&r之外，这个mod还提供了数百种世界各地的美食。"
+				""
+				"另外，种地收获的食物说不定会在某些章节里有别的用途......"
+				""
+				"更多内容可以在右侧章节栏“&6先吃饭吧&r”一章找到。"
+			]
+			id: "175EB0A14DDD2D4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52E8A0A3E3541A25"
+				table_id: 8924054224415382308L
+				type: "random"
+			}]
+			subtitle: "农业大亨"
+			tasks: [
+				{
+					id: "5D8BB848BFC38AD0"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "15DE48765307F161"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+			]
+			title: "多种多样的作物"
+			x: 27.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48E63D20C44DB84C"]
+			description: [
+				"你在狩猎过程中可能会注意到，动物不再直接掉落肉，而是掉落死牛、死猪、死羊等整只动物。"
+				"使用屠刀可以将这些动物分割成肉。"
+				""
+				"更多内容可以在右侧章节栏“&6屠夫乐事&r”一章找到。"
+			]
+			id: "26E496A96887EF30"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28FCCBD3BCB8E5D8"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					id: "23DB6937EBC5B97F"
+					item: "butchersdelight:dead_cow"
+					type: "item"
+				}
+				{
+					id: "6ACB33BADB1C6023"
+					item: "butchersdelight:deadpig"
+					type: "item"
+				}
+				{
+					id: "5CD28E6532D8090B"
+					item: "butchersdelight:deadsheep"
+					type: "item"
+				}
+			]
+			subtitle: "磨刀霍霍向猪羊"
+			tasks: [{
+				id: "286850DDD3573D3D"
+				item: {
+					Count: 1
+					id: "butchersdelight:cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "屠夫乐事"
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48E63D20C44DB84C"]
+			description: [
+				"你可能会注意到，随着时间流逝，怪物变的越来越强大了。"
+				""
+				"神化为你提供了一系列强化的&b装备&r和更强大的&5附魔&r。"
+				""
+				"更多内容可以在右侧章节栏“&6剑与勇气的冒险&r”一章找到。"
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:overworld/royalty"
+				}
+			}
+			id: "77BE81AE4970718E"
+			rewards: [
+				{
+					count: 2
+					id: "4FF2108F52BE371D"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "788CB6E7527EB27C"
+					item: "apotheosis:uncommon_material"
+					type: "item"
+				}
+			]
+			subtitle: "力量与勇气的冒险"
+			tasks: [{
+				id: "6F079B9D68DA63ED"
+				type: "checkmark"
+			}]
+			title: "神化"
+			x: 27.0d
+			y: 6.0d
+		}
+		{
+			description: ["动力造石机根据周围的流体和固体的不同，会自动产生不同的石材，对自动化非常方便。"]
+			id: "316C9474F9598AF4"
+			subtitle: "质量不守恒"
+			tasks: [{
+				id: "05C4B13CC3CD3192"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4AF4F9AEBB1389C0"]
+			description: [
+				"&b安山合金&r是一种性能优良的材料，通过在合金窑中将安山岩和铁融合得到。"
+				""
+				"有了安山合金，你就可以制作&6机械动力&r中的各种机器了。"
+			]
+			id: "0957CC72953A147C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "461B7019CBAF751F"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "650F89300E08ED37"
+					item: "minecraft:stripped_oak_wood"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3431D73642964C7C"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "4C594F210AEC6E8F"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "机械动力的基础"
+			tasks: [{
+				count: 16L
+				id: "3E6680FDBD06515C"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "安山时代！"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4AF4F9AEBB1389C0"]
+			description: [
+				"&b焦炉&r是一个非常重要的设备。将焦炉砖摆成&b3x3x3&r的实心结构，并用工程师锤右击，可以搭建焦炉。焦炉砖提供的密闭环境和高温足够我们把普通&b煤炭&r裂解成&6焦煤&r和&c杂酚油&r。"
+				""
+				"当然，这一过程耗费的时间并不短。"
+				""
+				"注意，当焦炉的杂酚油存满时并不会继续工作，所以你需要及时把杂酚油导出。"
+			]
+			id: "086997CE436E78B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27A438D6B1B182D8"
+					table_id: 8924054224415382308L
+					type: "random"
+				}
+				{
+					id: "4B21EAAA5175B996"
+					item: "enderio:fluid_tank"
+					type: "item"
+				}
+			]
+			subtitle: "升温裂解"
+			tasks: [{
+				count: 27L
+				id: "660C1F3E77B659CA"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "焦炉"
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4863CDAE61545E9C"]
+			description: [
+				"要利用灵气，需要用到黄金树的树叶，但是这种只存在于古代传说中的珍贵树种显然并不在主世界生成。"
+				""
+				"但是我们有另一种方法得到黄金树叶，只需要合成&e闪耀纤维&r，然后将它放在任意一棵树的树叶上，在时间的作用下,这棵树便会转化成一颗黄金树。"
+			]
+			id: "54CA90564A4FEE38"
+			rewards: [{
+				id: "4A8A3E7D885FE276"
+				item: "minecraft:raw_gold_block"
+				type: "item"
+			}]
+			subtitle: "人工转化"
+			tasks: [{
+				id: "3CB36F4D15F62462"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+	]
+}

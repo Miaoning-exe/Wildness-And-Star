@@ -1,0 +1,80 @@
+{
+	id: "158404A214A4BEEB"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/tyrannical"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/brawlers"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/lightning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "apotheosis:core/samurai"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "apotheosis:core/warlord"
+				}
+			}
+		}
+	]
+	title: "宝石"
+}

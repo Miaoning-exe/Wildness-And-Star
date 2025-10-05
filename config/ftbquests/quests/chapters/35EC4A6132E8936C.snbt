@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "35EC4A6132E8936C"
+	group: "1271C3EAF1F2BCCC"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "35EC4A6132E8936C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "第五章: 超越引力"
+}

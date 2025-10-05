@@ -1,0 +1,55 @@
+{
+	id: "7BD89C09129A5B24"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "pamhc2foodcore:chocolateyogurtitem" }
+		{ item: "pamhc2foodcore:caramelicecreamitem" }
+		{ item: "pamhc2foodcore:friesitem" }
+		{ item: "pamhc2crops:bakedsweetpotatoitem" }
+		{ item: "pamhc2foodextended:pepperoniitem" }
+		{ item: "pamhc2foodextended:quesadillaitem" }
+		{ item: "pamhc2foodextended:baconwrappedchiliitem" }
+		{ item: "pamhc2foodextended:peanutbutteritem" }
+		{ item: "pamhc2foodextended:quesadillaitem" }
+		{ item: "pamhc2foodcore:carrotbreaditem" }
+		{ item: "pamhc2foodextended:friedriceitem" }
+		{ item: "pamhc2foodextended:orangechickenitem" }
+		{ item: "pamhc2foodextended:blackberrycobbleritem" }
+		{ item: "pamhc2foodextended:fishlettucewrapitem" }
+		{ item: "pamhc2foodextended:dimsumitem" }
+		{ item: "pamhc2foodcore:melonpopsicleitem" }
+		{ item: "pamhc2foodcore:fishandchipsitem" }
+		{ item: "pamhc2foodextended:cashewbutteritem" }
+		{ item: "pamhc2foodextended:rawtofeakitem" }
+		{ item: "pamhc2foodcore:carrotsoupitem" }
+		{ item: "pamhc2foodcore:potatochipsitem" }
+		{ item: "pamhc2foodcore:potatochipsitem" }
+		{ item: "pamhc2foodextended:spagettiandmeatballsitem" }
+		{ item: "pamhc2foodextended:tortillachipsitem" }
+		{ item: "pamhc2foodextended:cherryyogurtitem" }
+		{ item: "pamhc2foodextended:mangoyogurtitem" }
+		{ item: "pamhc2foodextended:strawberrysmoothieitem" }
+		{ item: "pamhc2foodextended:grapejuiceitem" }
+		{ item: "pamhc2foodextended:strawberryjuiceitem" }
+		{ item: "pamhc2foodextended:pearjuiceitem" }
+		{ item: "pamhc2foodextended:pearjuiceitem" }
+		{ item: "pamhc2foodextended:creamofmushroomitem" }
+		{ item: "pamhc2foodextended:sweetpotatosouffleitem" }
+		{ item: "pamhc2foodextended:schnitzelitem" }
+		{ item: "pamhc2foodextended:mochaicecreamitem" }
+		{ item: "pamhc2foodextended:mochiitem" }
+		{ item: "pamhc2foodextended:lasagnaitem" }
+		{ item: "pamhc2foodextended:gyudonitem" }
+		{ item: "pamhc2foodextended:damperitem" }
+		{ item: "pamhc2foodextended:cinnamonrollitem" }
+		{ item: "pamhc2foodextended:cheeseontoastitem" }
+		{ item: "pamhc2foodextended:cashewchickenitem" }
+		{ item: "pamhc2foodextended:tortillaitem" }
+		{ item: "pamhc2foodextended:energydrinkitem" }
+		{ item: "pamhc2foodextended:chocolatepeanutbaritem" }
+		{ item: "pamhc2foodextended:candiedsweetpotatoesitem" }
+		{ item: "pamhc2foodextended:grapefruitsodaitem" }
+	]
+	title: "食物"
+}

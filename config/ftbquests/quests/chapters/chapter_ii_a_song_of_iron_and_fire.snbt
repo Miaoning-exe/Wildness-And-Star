@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_ii_a_song_of_iron_and_fire"
+	group: "76C8AA65A16308EB"
+	icon: "immersiveengineering:steel_scaffolding_standard"
+	id: "49B5063171567C5F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "3A9FF9CBE3B2077C"
+			subtitle: "Chapter II: A Song of Iron and Fire"
+			tasks: [{
+				id: "0DDDD6FD54B02905"
+				title: "第二章: 铁与火之歌"
+				type: "checkmark"
+			}]
+			x: -22.0d
+			y: 0.0d
+		}
+		{
+			id: "4E7C199A165380D3"
+			tasks: [{
+				id: "5748AAEF81385348"
+				item: "wild_n_star:organic_gels"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A9FF9CBE3B2077C"]
+			id: "09DF2B59DCF53210"
+			tasks: [{
+				id: "5352DDDB0A6A78DB"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E938C4A2F047181"]
+			id: "542F85F50B947956"
+			tasks: [{
+				id: "7FF0ECA6585FBF6B"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			id: "436179DA6D08528E"
+			tasks: [{
+				id: "14E057579F2DAA40"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09DF2B59DCF53210"]
+			id: "757227ACA51FA02B"
+			tasks: [{
+				id: "4ACEB9D8C5E641EB"
+				item: "immersiveengineering:plate_steel"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			id: "0A15D076069E5226"
+			tasks: [{
+				id: "7857BE4966C0E1C5"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			id: "2668F03D34D6DAD7"
+			tasks: [{
+				id: "1B5240AA09591973"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09DF2B59DCF53210"]
+			id: "3AB3B542C982011B"
+			tasks: [{
+				count: 16L
+				id: "5FBEB2D83C1F9A57"
+				item: { Count: 16, id: "create:copper_sheet" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			id: "5D72FE87D354A991"
+			tasks: [{
+				id: "3D8144B4171B4E85"
+				item: "create:sticky_mechanical_piston"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "2380D6F1DAC67E7D"
+			tasks: [{
+				id: "51EA49FBED43904D"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			id: "6A085F84D38BA9BE"
+			tasks: [{
+				id: "25A31EDCACEF6B9C"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09DF2B59DCF53210"]
+			id: "6E938C4A2F047181"
+			tasks: [{
+				count: 4L
+				id: "4C513920ED25EC6D"
+				item: { Count: 4, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+	]
+	title: "第二章: 铁与火之歌"
+}

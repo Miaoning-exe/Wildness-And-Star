@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "472EAE42615205F4"
+	group: "7EAF5D1D757AED2D"
+	icon: "btb:overworld_crystal"
+	id: "472EAE42615205F4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"沉浸工程的动能发电机已被禁用，这意味着你无法再用IE的水车和风车来实现前期的发电。"
+			""
+			"但是水车和风车的配方没有删除，也许你可以用它们来当装饰品。"
+			""
+			"还挺好看的。"
+		]
+		icon: "immersiveengineering:dynamo"
+		id: "0FD566004881139C"
+		subtitle: "不可以逃课"
+		tasks: [{
+			id: "2FE8860A0D0EFE3D"
+			title: "不可以逃课"
+			type: "checkmark"
+		}]
+		title: "禁用动能发电机"
+		x: -2.5d
+		y: -3.0d
+	}]
+	title: "特殊配方说明"
+}

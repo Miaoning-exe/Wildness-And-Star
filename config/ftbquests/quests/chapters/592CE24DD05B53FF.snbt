@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "592CE24DD05B53FF"
+	group: "364836D49BB5E2A9"
+	icon: "ad_astra:mars_globe"
+	id: "592CE24DD05B53FF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "第八章: 红色的邻居, 寂静的海"
+}

@@ -1,0 +1,241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: ""
+	icon: "botania:cosmetic_questgiver_mark"
+	id: "33E2CFC7A5B383A8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: "ad_astra:earth_globe"
+			id: "48778FFC75CD8808"
+			size: 3.0d
+			subtitle: "整合包简介"
+			tasks: [{
+				id: "1CC5768A78F44DED"
+				title: "欢迎来到(整合包名待定)"
+				type: "checkmark"
+			}]
+			title: "欢迎来到旷野与星辰整合包!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48778FFC75CD8808"]
+			description: [
+				"这本&6任务书&r有一个简单的任务系统。"
+				"每一章节都对应着特定的&b主线任务&r，&5支线任务&r和&4挑战&r。"
+				""
+				"&b主线任务&r为你提供了一条发展路线以及整合包内绝大部分mod的完整教学，如果你在游戏过程中遇见一个陌生的mod，或者卡在某个地方不知所措，不妨找到对应的主线任务，你应该会获得你想要的答案。"
+				"&5支线任务&r提供了一些模组的拓展内容和有趣的玩法，虽然它们不是进行主线必须的，但完成支线任务会让你更充分的了解一个mod和它对应的玩法。"
+				"&4挑战&r通常是一章的主要目标，往往是六角形的，有着丰厚的奖励。"
+				""
+				"由于本整合包含有&b大量魔改配方&r，所以为了游戏的进度，大部分主线mod是必做的。为了解锁它们，你需要顺着&b蓝色箭头&r的指引找到并完成&6前置任务&r。"
+			]
+			icon: "ftbquests:book"
+			id: "6B29604CDF84B458"
+			subtitle: "哪里卡住了就看看任务书吧"
+			tasks: [{
+				id: "09640FA75C32FAAD"
+				title: "任务系统"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48778FFC75CD8808"]
+			description: [
+				"按&bE&r键后，找到左上角的\"&bFTB区块&r\"按钮，可打开区块认领地图。"
+				""
+				"打开区块认领地图后，&b鼠标左键&r标记颜色说明认领成功，&6Shift+鼠标左键&r可强制区块加载，这样远行出门探险家里的机器也可以正常工作了。"
+				""
+				"注意：认领的区块中的&b所有方块&r只能被认领者交互！所以如果建造公共机器或公共建筑，请&6不要&r认领区块。"
+			]
+			icon: "mekanism:elite_control_circuit"
+			id: "7352358CF1DDF9F3"
+			subtitle: "土地私有制"
+			tasks: [{
+				id: "070E0334B9A18DE0"
+				title: "认领区块"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48778FFC75CD8808"]
+			description: [
+				"整合包中加入了静谧四季mod和新的世界生成方式。"
+				""
+				"建议搭配光影食用来营造一个美丽的世界。"
+				""
+				"四季变换会导致某些农作物只在&b对应季节&r才会生长，非应季会&6缓慢生长&r。你可以在每种种子的描述中查看适合生长的季节。"
+				"另外，&bY=46&r以下是保温层，也就是任何季节的作物都会全速生长。"
+			]
+			icon: "sereneseasons:calendar"
+			id: "6C088A940BF83F7B"
+			subtitle: "美丽新世界"
+			tasks: [{
+				id: "69574166FBE0CAD7"
+				title: "静谧四季"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48778FFC75CD8808"]
+			description: [
+				"&b神化(Apotheosis)&r提供了更高级的&5附魔&r、更强的&2装备&r，以及更强大的&4BOSS&r！"
+				""
+				"BOSS现在会随机地生成在世界中，具有极高的生命值和攻击力，当然，掉落物的价值也很可观。"
+				"有关神化模组的附魔、重铸以及BOSS的详细内容，请在后续任务重查看。"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:elementium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "36569EF5626B6E97"
+			subtitle: "剑与勇气的冒险"
+			tasks: [{
+				id: "466781997427F75B"
+				title: "神化！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48778FFC75CD8808"]
+			description: ["新的敌人潜藏在阴暗的地下、灼热的地狱、寒冷的末地，暗暗期待着你的光临......"]
+			icon: "artifacts:mimic_spawn_egg"
+			id: "768569F20CC87ECE"
+			subtitle: "\"那么，代价是什么呢\""
+			tasks: [{
+				id: "7533328B33C8004B"
+				title: "更强大的怪物"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48778FFC75CD8808"]
+			description: [
+				"整合包内加入了营养mod，共有&4水果&r、&e谷物&r、&6蛋白质&r、&2蔬菜&r、&d糖类&r五个营养类别。"
+				""
+				"点击背包界面中的鸡腿按钮，可以查看你当前的营养水平。"
+				"保持营养均衡，会给你提供一些诸如生命提升、盔甲韧性、护甲值之类的buff。"
+			]
+			icon: "artifacts:eternal_steak"
+			id: "6863BC914A4C1811"
+			rewards: [{
+				id: "3FD98A120A920568"
+				table_id: 8924054224415382308L
+				type: "random"
+			}]
+			subtitle: "当心糖尿病"
+			tasks: [{
+				id: "2118E9C6D839D915"
+				title: "营养均衡"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48778FFC75CD8808"]
+			description: [
+				"整合包内添加了&6连锁挖掘&r。默认按住~键开启"
+				""
+				"使用~+Shift+鼠标滚轮调整连锁形状。"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:elementium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "382C23065BD695BC"
+			subtitle: "不要让树漂浮"
+			tasks: [{
+				id: "6033966212A81742"
+				title: "连锁挖掘"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48778FFC75CD8808"]
+			description: [
+				"别再只吃那些简陋的原版食物了！"
+				""
+				"&6农夫乐事(Farmer's Delight)&r和&e潘马斯(Pam's  Harvest Craft)&r为整合包带来了数百种食物，从大餐到小吃应有尽有。具体请查阅&b食物手册&r。"
+				""
+				"多样化的饮食还可能为你带来意想不到的收获，比如&b更高的生命值&r。"
+			]
+			icon: "pamhc2foodextended:delightedmealitem"
+			id: "2AFFF0E0ADCFBD4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66DA8090846132E4"
+				table_id: 8924054224415382308L
+				type: "random"
+			}]
+			subtitle: "\"你看这汉堡做滴行不行？\""
+			tasks: [{
+				id: "09F3DAEC677550EA"
+				title: "美食家"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: ["有些任务直到你完成后才能被看见，这代表你获得了一个&b成就&r。"]
+			icon: "minecraft:nether_star"
+			id: "3327A2178C6C4189"
+			tasks: [{
+				id: "13AB6127785C3FF4"
+				type: "checkmark"
+			}]
+			title: "隐藏任务和成就"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"地下世界发生了新的变化。"
+				""
+				"多种&5崭新的洞穴&r和危险的怪物会在地下生成，并且随着进度的推进，你需要去这些洞穴中寻找&b特殊物品&r来完善你的生产线。"
+				""
+				"一段史诗般的冒险在等待着你！"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_codex"
+				tag: {
+					CaveBiome: "alexscaves:primordial_caves"
+				}
+			}
+			id: "1EEDC705737DD601"
+			tasks: [{
+				id: "74536E826B0CE025"
+				title: "地下世界"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+	]
+	title: "第零章 指引章节"
+}

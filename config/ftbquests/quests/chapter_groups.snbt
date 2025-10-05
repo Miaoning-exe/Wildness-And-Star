@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "76C8AA65A16308EB", title: "第一章组: 旷野黎明" }
+		{ id: "1271C3EAF1F2BCCC", title: "第二章组: 工业革命" }
+		{ id: "364836D49BB5E2A9", title: "第三章组: 旅行者一号, 你还好吗?" }
+		{ id: "2F649C74FE9221B1", title: "第四章组: 星辰大海" }
+		{ id: "4FA2960B4ECA573F", title: "第五章组: 宇宙的终点" }
+		{ id: "2793D95DA12F5FC2", title: "尾声: 宇宙之外" }
+		{ id: "7EAF5D1D757AED2D", title: "技术性内容" }
+	]
+}

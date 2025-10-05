@@ -1,0 +1,510 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "76246766003E4364"
+	group: "7EAF5D1D757AED2D"
+	icon: "ae2:pattern_encoding_terminal"
+	id: "76246766003E4364"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.180131362889988d
+			y: -11.350000000000016d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/cherry_sign"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.722988505747125d
+			y: -11.321428571428584d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.4833333333332845d
+			y: -11.361564625850335d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/pictures/1.20.1.png"
+			rotation: 0.0d
+			width: 3.8552631578947367d
+			x: -6.5d
+			y: -17.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/pictures/minecraft.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -6.5d
+			y: -18.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/pictures/Forge.png"
+			rotation: 0.0d
+			width: 3.6206896551724137d
+			x: 2.0d
+			y: -14.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/ftbmisc/apps/forge.png"
+			rotation: 0.0d
+			width: 4.88d
+			x: 2.0d
+			y: -12.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "65E3136A0FED0C2A"
+		tasks: [{
+			id: "666605B3CB6ADF8C"
+			type: "checkmark"
+		}]
+		x: 7.0d
+		y: -7.5d
+	}]
+	title: "整合包信息"
+}

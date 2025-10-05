@@ -1,0 +1,14 @@
+{
+	id: "428688FC312CB7FD"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 10, item: "ump:green_coin", weight: 10.0f }
+		{ count: 5, item: "ump:green_coin", weight: 15.0f }
+		{ item: "ump:green_coin", weight: 70.0f }
+		{ count: 666, item: "ump:green_coin", weight: 0.2f }
+		{ count: 2, item: "ump:green_coin", weight: 50.0f }
+		{ count: 20, item: "ump:green_coin", weight: 5.0f }
+	]
+	title: "绿色硬币"
+}

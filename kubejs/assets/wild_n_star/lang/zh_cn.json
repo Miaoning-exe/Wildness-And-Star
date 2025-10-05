@@ -1,0 +1,27 @@
+{
+    "item.wild_n_star.photosynthesis_crystal": "光合晶体",
+    "item.wild_n_star.machine_crystal": "机械晶体",
+    "item.wild_n_star.overworld_crystal": "地球晶体",
+    "item.wild_n_star.nether_crystal": "下界晶体",
+    "item.wild_n_star.end_crystal": "末地晶体",
+    "item.wild_n_star.electromagnetism_crystal": "电磁晶体",
+    "item.wild_n_star.nature_crystal": "自然晶体",
+    "item.wild_n_star.information_crystal": "信息晶体",
+    "item.wild_n_star.magic_crystal": "魔法晶体",
+    "item.wild_n_star.organic_gels": "有机凝胶",
+    "item.wild_n_star.crank_train": "曲柄连杆",
+    "item.wild_n_star.fire_clay": "耐火粘土",
+    "item.wild_n_star.dust_bauxite": "铝土矿粉",
+    "item.wild_n_star.paraffin_wax": "铝土矿粉",
+    
+
+    "item.wild_n_star.incomplete_crank_train": "曲柄连杆（半成品）",
+    "item.wild_n_star.incomplete_electron_tube": "电子管（半成品）",
+    
+    "fluid.wild_n_star.plant_essences": "植物精华",
+        "item.wild_n_star.plant_essences_bucket": "植物精华桶",
+    "fluid.wild_n_star.liquid_rose_quartz": "液态玫瑰石英",
+        "item.wild_n_star.liquid_rose_quartz_bucket": "液态玫瑰石英桶",
+    "fluid.wild_n_star.liquid_aura": "液态灵气",
+        "item.wild_n_star.liquid_aura_bucket": "液态灵气桶"    
+}

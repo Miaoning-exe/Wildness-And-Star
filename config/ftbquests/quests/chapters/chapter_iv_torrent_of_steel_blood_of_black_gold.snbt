@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iv_torrent_of_steel_blood_of_black_gold"
+	group: "1271C3EAF1F2BCCC"
+	icon: "immersivepetroleum:crudeoil_bucket"
+	id: "1CA45D03C9DC9286"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "第四章: 钢铁洪流与黑金之血"
+}

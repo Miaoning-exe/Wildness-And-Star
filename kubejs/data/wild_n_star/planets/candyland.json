@@ -1,0 +1,10 @@
+{
+    "dimension": "wild_n_star:candyland",
+    "gravity": 9.81,
+    "orbit": "wild_n_star:candyland_orbit",
+    "oxygen": true,
+    "solar_power": 420,
+    "solar_system": "wild_n_star:candyland_system",
+    "temperature": 20,
+    "tier": 2
+}
